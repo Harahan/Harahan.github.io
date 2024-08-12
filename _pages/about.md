@@ -23,8 +23,8 @@ I am an incoming PhD student at HKUST. I received my B.E. degree from Beihang Un
 
 
 # 🔥 News
-- *2022.07*: &nbsp;🎉🎉 Our PTSBench is accepted to ACM MM.
-- *2022.07*: &nbsp; Graduate from Beihang University.
+- *2024.07*: &nbsp;🎉🎉 Our PTSBench is accepted to ACM MM.
+- *2024.06*: &nbsp; Graduate from Beihang University.
 - *2024.02*: &nbsp;🎉🎉 Our TFMQ-DM is accepted to CVPR as a Highlight Poster (Top 2.8%). 
 
 # 📝 Publications 
@@ -32,7 +32,7 @@ I am an incoming PhD student at HKUST. I received my B.E. degree from Beihang Un
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/temporal-feature-matters.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Temporal Feature Matters: A Framework for Diffusion Models Quantization](https://arxiv.org/abs/2407.19547)
+[Temporal Feature Matters: A Framework for Diffusion Models Quantization](https://arxiv.org/pdf/2407.19547)
 
 **Yushi Huang**, Ruihao Gong, Xianglong Liu📧, Jing Liu, TYuhang Li, Jiwen Lu, Dacheng Tao
 - Compare and analyze the the sensitivity and disturbance for temporal and non-temporal features.
@@ -40,7 +40,7 @@ I am an incoming PhD student at HKUST. I received my B.E. degree from Beihang Un
 - Rreduce the FID score by 5.61 under the w4a8 configuration for SD-XL. Additionally, achieve 2.20$\times$ and 5.76$\times$ speedup on CPU and GPU, respectively.
 
 <div style="display: inline">
-    <a href="https://arxiv.org/abs/2407.19547"> <strong>[paper]</strong></a>
+    <a href="https://arxiv.org/pdf/2407.19547"> <strong>[paper]</strong></a>
     <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">
         <p> The Diffusion models, widely used for image generation, face significant challenges related to their broad applicability due to prolonged inference times and high memory demands. Efficient Post-Training Quantization (PTQ) is crucial to address these issues. However, unlike traditional models, diffusion models critically rely on the time-step for the multi-round denoising. Typically, each time-step is encoded into a hypersensitive temporal feature by several modules. Despite this, existing PTQ methods do not optimize these modules individually. Instead, they employ unsuitable reconstruction objectives and complex calibration methods, leading to significant disturbances in the temporal feature and denoising trajectory, as well as reduced compression efficiency. To address these challenges, we introduce a novel quantization framework that includes three strategies: 1) TIB-based Maintenance: Based on our innovative Temporal Information Block (TIB) definition, Temporal Information-aware Reconstruction (TIAR) and Finite Set Calibration (FSC) are developed to efficiently align original temporal features. 2) Cache-based Maintenance: Instead of indirect and complex optimization for the related modules, pre-computing and caching quantized counterparts of temporal features are developed to minimize errors. 3) Disturbance-aware Selection: Employ temporal feature errors to guide a fine-grained selection between the two maintenance strategies for further disturbance reduction. This framework preserves most of the temporal information and ensures high-quality end-to-end generation. Extensive testing on various datasets, diffusion models and hardware confirms our superior performance and acceleration. </p>
@@ -53,7 +53,7 @@ I am an incoming PhD student at HKUST. I received my B.E. degree from Beihang Un
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/llmc.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[LLMC: Benchmarking Large Language Model Quantization with a Versatile Compression Toolkit](https://arxiv.org/abs/2405.06001)<img src='https://img.shields.io/github/stars/ModelTC/llmc.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
+[LLMC: Benchmarking Large Language Model Quantization with a Versatile Compression Toolkit](https://arxiv.org/pdf/2405.06001)<img src='https://img.shields.io/github/stars/ModelTC/llmc.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
 
 Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunchen Zhang, Dacheng Tao, Xianglong Liu📧
 - A versatile LLM compression toolkit LLMC supports dozens of algorithms, models, and multiple inference backends with powerful expandability and all-around evaluation, enabling users to perform compression for 100-billion-parameter LLMs with just a single GPU.
@@ -61,7 +61,7 @@ Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunche
 - With detailed observation and analysis, various types of novel points for performance and method improvements under different configurations.
 
 <div style="display: inline">
-    <a href="https://arxiv.org/abs/2405.06001"> <strong>[paper]</strong></a>
+    <a href="https://arxiv.org/pdf/2405.06001"> <strong>[paper]</strong></a>
     <a href="https://github.com/ModelTC/llmc"> <strong>[code]</strong></a>
     <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">
@@ -115,7 +115,7 @@ methods and sparsification-friendly model design. </p>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024 (Highlight)</div><img src='images/tfmq-dm.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[TFMQ-DM: Temporal Feature Maintenance Quantization for Diffusion Models](https://openaccess.thecvf.com/content/CVPR2024/papers/Huang_TFMQ-DM_Temporal_Feature_Maintenance_Quantization_for_Diffusion_Models_CVPR_2024_paper.pdf)<img src='https://img.shields.io/github/stars/ModelTC/TFMQ-DM.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
+[TFMQ-DM: Temporal Feature Maintenance Quantization for Diffusion Models](https://arxiv.org/pdf/2311.16503)<img src='https://img.shields.io/github/stars/ModelTC/TFMQ-DM.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
 
 **Yushi Huang\***, Ruihao Gong\*, Jing Liu, Tianlong Chen, Xianglong Liu📧
 
@@ -124,7 +124,7 @@ methods and sparsification-friendly model design. </p>
 - Reduce FID by 6.71 and 2.26 for CelebA-HQ $256\times256$ and LSUN-Bedrooms $256\times256$, respectively.
 
 <div style="display: inline">
-    <a href="https://arxiv.org/abs/2311.16503"> <strong>[paper]</strong></a>
+    <a href="https://arxiv.org/pdf/2311.16503"> <strong>[paper]</strong></a>
     <a href="https://github.com/ModelTC/TFMQ-DM"> <strong>[code]</strong></a>
     <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">
