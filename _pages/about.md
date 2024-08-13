@@ -32,7 +32,7 @@ I am an incoming PhD student at HKUST. I received my B.E. degree from Beihang Un
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/temporal-feature-matters.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Temporal Feature Matters: A Framework for Diffusion Models Quantization](https://arxiv.org/pdf/2407.19547)
+[Temporal Feature Matters: A Framework for Diffusion Model Quantization](https://arxiv.org/pdf/2407.19547)
 
 **Yushi Huang**, Ruihao Gong, Xianglong Liu📧, Jing Liu, TYuhang Li, Jiwen Lu, Dacheng Tao
 - Compare and analyze the the sensitivity and disturbance for temporal and non-temporal features.
