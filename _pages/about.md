@@ -34,7 +34,7 @@ I am an incoming PhD student at HKUST. I received my B.E. degree from Beihang Un
 
 [Temporal Feature Matters: A Framework for Diffusion Model Quantization](https://arxiv.org/pdf/2407.19547)
 
-**Yushi Huang**, Ruihao Gong, Xianglong Liu📧, Jing Liu, TYuhang Li, Jiwen Lu, Dacheng Tao
+**Yushi Huang**, Ruihao Gong, Xianglong Liu📧, Jing Liu, Yuhang Li, Jiwen Lu, Dacheng Tao
 - Compare and analyze the the sensitivity and disturbance for temporal and non-temporal features.
 - Propose TIB-based and Cache-based Maintenance with Disturbance-aware Selection for temporal feature maintenance.
 - Rreduce the FID score by 5.61 under the w4a8 configuration for SD-XL. Additionally, achieve 2.20$\times$ and 5.76$\times$ speedup on CPU and GPU, respectively.
