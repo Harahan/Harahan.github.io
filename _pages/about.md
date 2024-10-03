@@ -29,6 +29,27 @@ I am an incoming PhD student at HKUST. I received my B.E. degree from Beihang Un
 
 # 📝 Publications 
 (\* indicates equal contribution, 📧 indicates corresponding author.)
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/harmonica.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[HarmoniCa: Harmonizing Training and Inference for Better Feature Cache in Diffusion Transformer Acceleration](https://arxiv.org/pdf/2410.01723)
+
+**Yushi Huang\***, Zining Wang\*, Ruihao Gong📧, Jing Liu, Jinyang Guo, Xianglong Liu, Xinjie Zhang, Jun Zhang📧
+- Uncover two discrepancies between training and inference for the existing learning-based feature cache method.
+- Propose HarmoniCa built upon two training techniques to alleviate the discrepancies.
+- Extensive experiments on 2 tasks across 7 models and 4 samplers with resolutions ranging from $256\times256$ to $2048\times2048$ proves the superiority and universality of our framework.
+
+<div style="display: inline">
+    <a href="https://arxiv.org/pdf/2410.01723"> <strong>[paper]</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <div class="abstract"  style="overflow: hidden; display: none;">
+        <p> Diffusion Transformers (DiTs) have gained prominence for outstanding scalability and extraordinary performance in generative tasks. However, their considerable inference costs impede practical deployment. The feature cache mechanism, which involves storing and retrieving redundant computations across timesteps, holds promise for reducing per-step inference time in diffusion models. Most existing caching methods for DiT are manually designed. Although the learning-based approach attempts to optimize strategies adaptively, it suffers from discrepancies between training and inference, which hampers both the performance and acceleration ratio. Upon detailed analysis, we pinpoint that these discrepancies primarily stem from two aspects: (1) Prior Timestep Disregard, where training ignores the effect of cache usage at earlier timesteps, and (2) Objective Mismatch, where the training target (align predicted noise in each timestep) deviates from the goal of inference (generate the high-quality image). To alleviate these discrepancies, we propose HarmoniCa, a novel method that Harmonizes training and inference with a novel learning-based Caching framework built upon Step-Wise Denoising Training (SDT) and Image Error Proxy-Guided Objective (IEPO). Compared to the traditional training paradigm, the newly proposed SDT maintains the continuity of the denoising process, enabling the model to leverage information from prior timesteps during training, similar to the way it operates during inference. Furthermore, we design IEPO, which integrates an efficient proxy mechanism to approximate the final image error caused by reusing the cached feature. Therefore, IEPO helps balance final image quality and cache utilization, resolving the issue of training that only considers the impact of cache usage on the predicted output at each timestep. Extensive experiments on class-conditional and text-to-image (T2I) tasks for 7 models and 4 samplers with resolutions ranging from $256\times256$ to $2048\times2048$ demonstrate the exceptional performance and speedup capabilities of our HarmoniCa. For example, HarmoniCa is the first feature cache method applied to the 20-step PixArt-$\alpha$ that achieves over $1.5\times$ speedup in latency with an improved FID compared to the non-accelerated model. Remarkably, HarmoniCa requires no image data during training and reduces about 25% of training time compared to the existing learning-based approach. </p>
+    </div>
+</div>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/temporal-feature-matters.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -50,7 +71,7 @@ I am an incoming PhD student at HKUST. I received my B.E. degree from Beihang Un
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/llmc.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2024 Industry Track</div><img src='images/llmc.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [LLMC: Benchmarking Large Language Model Quantization with a Versatile Compression Toolkit](https://arxiv.org/pdf/2405.06001)<img src='https://img.shields.io/github/stars/ModelTC/llmc.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
@@ -137,7 +158,7 @@ methods and sparsification-friendly model design. </p>
 </div>
 
 # 📋 Services
-- Conference Reviews: NeurIPS 2024
+- Conference Reviews: NeurIPS 2024, ICLR 2025
 
 # 📖 Educations
 - *2020.09 - 2024.06*, B.Eng. in Computer Science and Engineering, Shenyuan Honors College, Beihang University.
