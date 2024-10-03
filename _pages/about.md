@@ -23,6 +23,7 @@ I am an incoming PhD student at HKUST. I received my B.E. degree from Beihang Un
 
 
 # 🔥 News
+- *2024.10*: &nbsp;🎉🎉 Our LLMC is accepted to EMNLP Industry Track.
 - *2024.07*: &nbsp;🎉🎉 Our PTSBench is accepted to ACM MM.
 - *2024.06*: &nbsp; Graduate from Beihang University.
 - *2024.02*: &nbsp;🎉🎉 Our TFMQ-DM is accepted to CVPR as a Highlight Poster (Top 2.8%). 
