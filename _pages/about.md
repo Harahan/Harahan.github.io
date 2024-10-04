@@ -19,7 +19,7 @@ redirect_from:
 
 I am an incoming PhD student at HKUST. I received my B.E. degree from Beihang University. I am currently working as a research intern at SenseTime Research, supervised by Dr. [Ruihao Gong](https://xhplus.github.io/). My research interest includes efficient large vision/language models.
 
-**I'm always actively seeking internship/collabration opportunities. If you are interested, please feel free to contact me 😎. Here's my [CV](images/CV.pdf).**
+**I'm always actively seeking internship/collaboration opportunities. If you are interested, please feel free to contact me 😎. Here's my [CV](images/CV.pdf).**
 
 
 # 🔥 News
@@ -35,7 +35,7 @@ I am an incoming PhD student at HKUST. I received my B.E. degree from Beihang Un
 
 [HarmoniCa: Harmonizing Training and Inference for Better Feature Cache in Diffusion Transformer Acceleration](https://arxiv.org/pdf/2410.01723)
 
-**Yushi Huang\***, Zining Wang\*, Ruihao Gong📧, Jing Liu, Jinyang Guo, Xianglong Liu, Xinjie Zhang, Jun Zhang📧
+**Yushi Huang\***, Zining Wang\*, Ruihao Gong📧, Jing Liu, Xinjie Zhang, Jun Zhang📧
 - Uncover two discrepancies between training and inference for the existing learning-based feature cache method.
 - Propose HarmoniCa built upon two training techniques to alleviate the discrepancies.
 - Extensive experiments on 2 tasks across 7 models and 4 samplers with resolutions ranging from $256\times256$ to $2048\times2048$ proves the superiority and universality of our framework.
@@ -57,9 +57,9 @@ I am an incoming PhD student at HKUST. I received my B.E. degree from Beihang Un
 [Temporal Feature Matters: A Framework for Diffusion Model Quantization](https://arxiv.org/pdf/2407.19547)
 
 **Yushi Huang**, Ruihao Gong, Xianglong Liu📧, Jing Liu, Yuhang Li, Jiwen Lu, Dacheng Tao
-- Compare and analyze the the sensitivity and disturbance for temporal and non-temporal features.
+- Compare and analyze the sensitivity and disturbance for temporal and non-temporal features.
 - Propose TIB-based and Cache-based Maintenance with Disturbance-aware Selection for temporal feature maintenance.
-- Rreduce the FID score by 5.61 under the w4a8 configuration for SD-XL. Additionally, achieve 2.20$\times$ and 5.76$\times$ speedup on CPU and GPU, respectively.
+- Reduce the FID score by 5.61 under the w4a8 configuration for SD-XL. Additionally, achieve 2.20$\times$ and 5.76$\times$ speedup on CPU and GPU, respectively.
 
 <div style="display: inline">
     <a href="https://arxiv.org/pdf/2407.19547"> <strong>[paper]</strong></a>
