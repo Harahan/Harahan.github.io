@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am an incoming PhD student at HKUST. I received my B.E. degree from Beihang University. I am currently working as a research intern at SenseTime Research, supervised by Dr. [Ruihao Gong](https://xhplus.github.io/). My research interest includes efficient large vision/language models.
+I am an incoming PhD student at HKUST. I received my B.E. degree from Beihang University. I am currently working as a research intern at Microsoft Research Asia. Previously, I have also interned at SenseTime Research. My research interest includes efficient large vision/language models, video generation, and world models.
 
 **I'm always actively seeking internship/collaboration opportunities. If you are interested, please feel free to contact me 😎. Here's my [CV](images/CV.pdf).**
 
@@ -165,4 +165,5 @@ methods and sparsification-friendly model design. </p>
 - *2020.09 - 2024.06*, B.Eng. in Computer Science and Engineering, Shenyuan Honors College, Beihang University.
 
 # 💻 Internships
-- *2023.05 - Now*, SenseTime Research.
+- *2024.12 - Now*, Microsoft Research Asia.
+- *2023.05 - 2024.12*, SenseTime Research.
