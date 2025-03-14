@@ -17,15 +17,14 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am an incoming PhD student at HKUST. I received my B.E. degree from Beihang University. I am currently working as a research intern at Microsoft Research Asia. Previously, I have also interned at SenseTime Research. My research interest includes efficient large vision/language models, video generation, and world models.
+I am a Ph.D. student at HKUST supervised by Prof. [Jun Zhang](https://eejzhang.people.ust.hk/home.html). I received my B.E. degree from Beihang University. I am currently working as a research intern at SenseTime Research closely with Dr. [Ruihao Gong](https://xhplus.github.io/). Previously, I have also interned at Microsoft Research Asia and SenseTime Research. My research interest includes efficient large vision/language models and image/video generation.
 
-**I'm always actively seeking internship/collaboration opportunities. If you are interested, please feel free to contact me 😎. Here's my [CV](images/CV.pdf).**
+**I'm always actively seeking collaboration opportunities. If you are interested, please feel free to contact me 😎.**
 
 
 # 🔥 News
 - *2024.10*: &nbsp;🎉🎉 Our LLMC is accepted to EMNLP Industry Track.
 - *2024.07*: &nbsp;🎉🎉 Our PTSBench is accepted to ACM MM.
-- *2024.06*: &nbsp; Graduate from Beihang University.
 - *2024.02*: &nbsp;🎉🎉 Our TFMQ-DM is accepted to CVPR as a Highlight Poster (Top 2.8%). 
 
 # 📝 Publications 
@@ -35,16 +34,18 @@ I am an incoming PhD student at HKUST. I received my B.E. degree from Beihang Un
 
 [HarmoniCa: Harmonizing Training and Inference for Better Feature Cache in Diffusion Transformer Acceleration](https://arxiv.org/pdf/2410.01723)
 
-**Yushi Huang\***, Zining Wang\*, Ruihao Gong📧, Jing Liu, Xinjie Zhang, Jun Zhang📧
+**Yushi Huang\***, Zining Wang\*, Ruihao Gong📧, Jing Liu, Xinjie Zhang, Jinyang Guo, Xianglong Liu, Jun Zhang📧
 - Uncover two discrepancies between training and inference for the existing learning-based feature cache method.
 - Propose HarmoniCa built upon two training techniques to alleviate the discrepancies.
-- Extensive experiments on 2 tasks across 7 models and 4 samplers with resolutions ranging from $256\times256$ to $2048\times2048$ proves the superiority and universality of our framework.
+- Extensive experiments on 2 tasks across 7 models and 4 samplers with resolutions ranging from $256\times256$ to $2048\times2048$ prove the superiority and universality of our framework.
+- Achieve over $40\\%$ latency reduction (*i.e.*, $2.07\times$ theoretical speedup) and improved performance on PixArt-$\alpha$. Remarkably, our *image-free* approach reduces training time by $25\\%$ compared with the previous method.
 
 <div style="display: inline">
     <a href="https://arxiv.org/pdf/2410.01723"> <strong>[paper]</strong></a>
     <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">
-        <p> Diffusion Transformers (DiTs) have gained prominence for outstanding scalability and extraordinary performance in generative tasks. However, their considerable inference costs impede practical deployment. The feature cache mechanism, which involves storing and retrieving redundant computations across timesteps, holds promise for reducing per-step inference time in diffusion models. Most existing caching methods for DiT are manually designed. Although the learning-based approach attempts to optimize strategies adaptively, it suffers from discrepancies between training and inference, which hampers both the performance and acceleration ratio. Upon detailed analysis, we pinpoint that these discrepancies primarily stem from two aspects: (1) Prior Timestep Disregard, where training ignores the effect of cache usage at earlier timesteps, and (2) Objective Mismatch, where the training target (align predicted noise in each timestep) deviates from the goal of inference (generate the high-quality image). To alleviate these discrepancies, we propose HarmoniCa, a novel method that Harmonizes training and inference with a novel learning-based Caching framework built upon Step-Wise Denoising Training (SDT) and Image Error Proxy-Guided Objective (IEPO). Compared to the traditional training paradigm, the newly proposed SDT maintains the continuity of the denoising process, enabling the model to leverage information from prior timesteps during training, similar to the way it operates during inference. Furthermore, we design IEPO, which integrates an efficient proxy mechanism to approximate the final image error caused by reusing the cached feature. Therefore, IEPO helps balance final image quality and cache utilization, resolving the issue of training that only considers the impact of cache usage on the predicted output at each timestep. Extensive experiments on class-conditional and text-to-image (T2I) tasks for 7 models and 4 samplers with resolutions ranging from $256\times256$ to $2048\times2048$ demonstrate the exceptional performance and speedup capabilities of our HarmoniCa. For example, HarmoniCa is the first feature cache method applied to the 20-step PixArt-$\alpha$ that achieves over $1.5\times$ speedup in latency with an improved FID compared to the non-accelerated model. Remarkably, HarmoniCa requires no image data during training and reduces about 25% of training time compared to the existing learning-based approach. </p>
+        <p> Diffusion Transformers (DiTs) excel in generative tasks but face practical deployment challenges due to high inference costs. Feature caching, which stores and retrieves redundant computations, offers the potential for acceleration. Existing learning-based caching, though adaptive, overlooks the impact of the prior timestep. It also suffers from misaligned objectives-*aligned predicted noise vs. high-quality images*-between training and inference. These two discrepancies compromise both performance and efficiency.
+To this end, we *harmonize* training and inference with a novel learning-based *caching* framework dubbed **HarmoniCa**. It first incorporates *Step-Wise Denoising Training* (SDT) to ensure the continuity of the denoising process, where prior steps can be leveraged. In addition, an *Image Error Proxy-Guided Objective* (IEPO) is applied to balance image quality against cache utilization through an efficient proxy to approximate the image error. Extensive experiments across $8$ models, $4$ samplers, and resolutions from $256\times256$ to $2K$ demonstrate superior performance and speedup of our framework. For instance, it achieves over $40\\%$ latency reduction (*i.e.*, $2.07\times$ theoretical speedup) and improved performance on PixArt-$\alpha$. Remarkably, our *image-free* approach reduces training time by $25\\%$ compared with the previous method. *Our code will be released upon acceptance.* </p>
     </div>
 </div>
 
@@ -65,7 +66,7 @@ I am an incoming PhD student at HKUST. I received my B.E. degree from Beihang Un
     <a href="https://arxiv.org/pdf/2407.19547"> <strong>[paper]</strong></a>
     <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">
-        <p> The Diffusion models, widely used for image generation, face significant challenges related to their broad applicability due to prolonged inference times and high memory demands. Efficient Post-Training Quantization (PTQ) is crucial to address these issues. However, unlike traditional models, diffusion models critically rely on the time-step for the multi-round denoising. Typically, each time-step is encoded into a hypersensitive temporal feature by several modules. Despite this, existing PTQ methods do not optimize these modules individually. Instead, they employ unsuitable reconstruction objectives and complex calibration methods, leading to significant disturbances in the temporal feature and denoising trajectory, as well as reduced compression efficiency. To address these challenges, we introduce a novel quantization framework that includes three strategies: 1) TIB-based Maintenance: Based on our innovative Temporal Information Block (TIB) definition, Temporal Information-aware Reconstruction (TIAR) and Finite Set Calibration (FSC) are developed to efficiently align original temporal features. 2) Cache-based Maintenance: Instead of indirect and complex optimization for the related modules, pre-computing and caching quantized counterparts of temporal features are developed to minimize errors. 3) Disturbance-aware Selection: Employ temporal feature errors to guide a fine-grained selection between the two maintenance strategies for further disturbance reduction. This framework preserves most of the temporal information and ensures high-quality end-to-end generation. Extensive testing on various datasets, diffusion models and hardware confirms our superior performance and acceleration. </p>
+        <p> The Diffusion models, widely used for image generation, face significant challenges related to their broad applicability due to prolonged inference times and high memory demands. Efficient Post-Training Quantization (PTQ) is crucial to address these issues. However, unlike traditional models, diffusion models critically rely on the time-step for the multi-round denoising. Typically, each time-step is encoded into a hypersensitive temporal feature by several modules. Despite this, existing PTQ methods do not optimize these modules individually. Instead, they employ unsuitable reconstruction objectives and complex calibration methods, leading to significant disturbances in the temporal feature and denoising trajectory, as well as reduced compression efficiency. To address these challenges, we introduce a novel quantization framework that includes three strategies: 1) **TIB-based Maintenance**: Based on our innovative Temporal Information Block (TIB) definition, Temporal Information-aware Reconstruction (TIAR) and Finite Set Calibration (FSC) are developed to efficiently align original temporal features. 2) **Cache-based Maintenance**: Instead of indirect and complex optimization for the related modules, pre-computing and caching quantized counterparts of temporal features are developed to minimize errors. 3) **Disturbance-aware Selection**: Employ temporal feature errors to guide a fine-grained selection between the two maintenance strategies for further disturbance reduction. This framework preserves most of the temporal information and ensures high-quality end-to-end generation. Extensive testing on various datasets, diffusion models and hardware confirms our superior performance and acceleration. </p>
     </div>
 </div>
 
@@ -102,7 +103,7 @@ Towards Algorithms and Models](https://dl.acm.org/doi/pdf/10.1145/3664647.368098
 
 Zining Wang, Jinyang Guo, Ruihao Gong, Yang Yong, Aishan Liu, **Yushi Huang**, Jiaheng Liu, Xianglong Liu📧
 - The first systematic benchmark to conduct a comprehensive evaluation of PTS methods.
-- Uncover and summarize several useful insights and takeaway conclusions, which can serve as a guidance for future PTS method design.
+- Uncover and summarize several useful insights and takeaway conclusions, which can serve as guidance for future PTS method design.
 - Serve as a well-organized codebase for future research of PTS algorithms.
 <div style="display: inline">
     <a href="https://dl.acm.org/doi/pdf/10.1145/3664647.3680982"> <strong>[paper]</strong></a>
@@ -159,11 +160,13 @@ methods and sparsification-friendly model design. </p>
 </div>
 
 # 📋 Services
-- Conference Reviews: NeurIPS 2024, ICLR 2025
+- Conference Reviews: NeurIPS, ICLR, ICML, COLM
 
 # 📖 Educations
+- *2025.02 - Now*, Ph.D. in Electronic Computer and Engineering, Hong Kong University of Science and Technology.
 - *2020.09 - 2024.06*, B.Eng. in Computer Science and Engineering, Shenyuan Honors College, Beihang University.
 
 # 💻 Internships
-- *2024.12 - Now*, Microsoft Research Asia.
+- *2025.02 - Now*, SenseTime Research.
+- *2024.12 - 2025.02*, Microsoft Research Asia.
 - *2023.05 - 2024.12*, SenseTime Research.
