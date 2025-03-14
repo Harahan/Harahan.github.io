@@ -25,7 +25,7 @@ I am a Ph.D. student at HKUST supervised by Prof. [Jun Zhang](https://eejzhang.p
 # 🔥 News
 - *2024.10*: &nbsp;🎉🎉 Our LLMC is accepted to EMNLP Industry Track.
 - *2024.07*: &nbsp;🎉🎉 Our PTSBench is accepted to ACM MM.
-- *2024.02*: &nbsp;🎉🎉 Our TFMQ-DM is accepted to CVPR as a Highlight Poster (Top 2.8%). 
+- *2024.02*: &nbsp;🎉🎉 Our TFMQ-DM is accepted to CVPR as a Highlight Poster (Top $2.8\\%$). 
 
 # 📝 Publications 
 (\* indicates equal contribution, 📧 indicates corresponding author.)
@@ -37,7 +37,7 @@ I am a Ph.D. student at HKUST supervised by Prof. [Jun Zhang](https://eejzhang.p
 **Yushi Huang\***, Zining Wang\*, Ruihao Gong📧, Jing Liu, Xinjie Zhang, Jinyang Guo, Xianglong Liu, Jun Zhang📧
 - Uncover two discrepancies between training and inference for the existing learning-based feature cache method.
 - Propose HarmoniCa built upon two training techniques to alleviate the discrepancies.
-- Extensive experiments on 2 tasks across 7 models and 4 samplers with resolutions ranging from $256\times256$ to $2048\times2048$ prove the superiority and universality of our framework.
+- Extensive experiments on $2$ tasks across $7$ models and $4$ samplers with resolutions ranging from $256\times256$ to $2048\times2048$ prove the superiority and universality of our framework.
 - Achieve over $40\\%$ latency reduction (*i.e.*, $2.07\times$ theoretical speedup) and improved performance on PixArt-$\alpha$. Remarkably, our *image-free* approach reduces training time by $25\\%$ compared with the previous method.
 
 <div style="display: inline">
@@ -60,7 +60,7 @@ To this end, we *harmonize* training and inference with a novel learning-based *
 **Yushi Huang**, Ruihao Gong, Xianglong Liu📧, Jing Liu, Yuhang Li, Jiwen Lu, Dacheng Tao
 - Compare and analyze the sensitivity and disturbance for temporal and non-temporal features.
 - Propose TIB-based and Cache-based Maintenance with Disturbance-aware Selection for temporal feature maintenance.
-- Reduce the FID score by 5.61 under the w4a8 configuration for SD-XL. Additionally, achieve 2.20$\times$ and 5.76$\times$ speedup on CPU and GPU, respectively.
+- Reduce the FID score by $5.61$ under the w4a8 configuration for SD-XL. Additionally, achieve $2.20\times$ and $5.76\times$ speedup on CPU and GPU, respectively.
 
 <div style="display: inline">
     <a href="https://arxiv.org/pdf/2407.19547"> <strong>[paper]</strong></a>
@@ -79,7 +79,7 @@ To this end, we *harmonize* training and inference with a novel learning-based *
 [LLMC: Benchmarking Large Language Model Quantization with a Versatile Compression Toolkit](https://arxiv.org/pdf/2405.06001)<img src='https://img.shields.io/github/stars/ModelTC/llmc.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
 
 Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunchen Zhang, Dacheng Tao, Xianglong Liu📧
-- A versatile LLM compression toolkit LLMC supports dozens of algorithms, models, and multiple inference backends with powerful expandability and all-around evaluation, enabling users to perform compression for 100-billion-parameter LLMs with just a single GPU.
+- A versatile LLM compression toolkit LLMC supports dozens of algorithms, models, and multiple inference backends with powerful expandability and all-around evaluation, enabling users to perform compression for LLMs (*i.e.*, DeepSeek-V3 and LLaMA-3.1 405B) with just a single GPU.
 - Modularly and fairly benchmark LLM quantization considering calibration data, algorithms, and data type.
 - With detailed observation and analysis, various types of novel points for performance and method improvements under different configurations.
 
@@ -144,7 +144,7 @@ methods and sparsification-friendly model design. </p>
 
 - First observe temporal disturbance and provide detailed analyses.
 - Propose TIAR and FSC for temporal feature maintenance.
-- Reduce FID by 6.71 and 2.26 for CelebA-HQ $256\times256$ and LSUN-Bedrooms $256\times256$, respectively.
+- Reduce FID by $6.71$ and $2.26$ for CelebA-HQ $256\times256$ and LSUN-Bedrooms $256\times256$, respectively.
 
 <div style="display: inline">
     <a href="https://arxiv.org/pdf/2311.16503"> <strong>[paper]</strong></a>
