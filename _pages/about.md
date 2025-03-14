@@ -29,7 +29,7 @@ I am a Ph.D. student at HKUST supervised by Prof. [Jun Zhang](https://eejzhang.p
 
 # 📝 Publications 
 (\* indicates equal contribution, 📧 indicates corresponding author.)
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/harmonica.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/harmonica.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [HarmoniCa: Harmonizing Training and Inference for Better Feature Caching in Diffusion Transformer Acceleration](https://arxiv.org/pdf/2410.01723)
@@ -52,7 +52,7 @@ To this end, we *harmonize* training and inference with a novel learning-based *
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/temporal-feature-matters.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/temporal-feature-matters.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Temporal Feature Matters: A Framework for Diffusion Model Quantization](https://arxiv.org/pdf/2407.19547)
