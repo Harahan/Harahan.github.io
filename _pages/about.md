@@ -32,7 +32,7 @@ I am a Ph.D. student at HKUST supervised by Prof. [Jun Zhang](https://eejzhang.p
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/harmonica.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[HarmoniCa: Harmonizing Training and Inference for Better Feature Cache in Diffusion Transformer Acceleration](https://arxiv.org/pdf/2410.01723)
+[HarmoniCa: Harmonizing Training and Inference for Better Feature Caching in Diffusion Transformer Acceleration](https://arxiv.org/pdf/2410.01723)
 
 **Yushi Huang\***, Zining Wang\*, Ruihao Gong📧, Jing Liu, Xinjie Zhang, Jinyang Guo, Xianglong Liu, Jun Zhang📧
 - Uncover two discrepancies between training and inference for the existing learning-based feature cache method.
