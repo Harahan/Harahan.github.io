@@ -78,7 +78,7 @@ I am a first-year Ph.D. student at HKUST supervised by Prof. [Jun Zhang](https:/
 [LLMC: Benchmarking Large Language Model Quantization with a Versatile Compression Toolkit](https://arxiv.org/pdf/2405.06001)<img src='https://img.shields.io/github/stars/ModelTC/llmc.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
 
 Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunchen Zhang, Dacheng Tao, Xianglong Liu📧
-- A versatile LLM compression toolkit LLMC supports dozens of algorithms, models, and multiple inference backends with powerful expandability and all-around evaluation, enabling users to perform compression for LLMs (*i.e.*, DeepSeek-V3 and LLaMA-3.1 405B) with just a single GPU.
+- A versatile LLM compression toolkit LLMC supports dozens of algorithms, models, and multiple inference backends with powerful expandability and all-around evaluation, enabling users to perform compression for LLMs (*i.e.*, DeepSeek-V3 and LLaMA-3.1 $405$B) with just a single GPU.
 - Modularly and fairly benchmark LLM quantization considering calibration data, algorithms, and data type.
 - With detailed observation and analysis, various types of novel points for performance and method improvements under different configurations.
 
