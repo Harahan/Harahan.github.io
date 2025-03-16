@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a first-year Ph.D. student at HKUST supervised by Prof. [Jun Zhang](https://eejzhang.people.ust.hk/home.html). I received my B.E. degree from Beihang University. I am currently working as a research intern at SenseTime Research closely with Dr. [Ruihao Gong](https://xhplus.github.io/). Previously, I have also interned at Microsoft Research Asia and SenseTime Research. My research interest includes efficient large vision/language models and image/video generation.
+I am a 1st-year Ph.D. student at HKUST, supervised by Prof. [Jun Zhang](https://eejzhang.people.ust.hk/home.html). I received my B.E. degree from Beihang University. I also work as a research intern at SenseTime Research, closely with Dr. [Ruihao Gong](https://xhplus.github.io/). Previously, I have also interned at Microsoft Research Asia and SenseTime Research. My research interests include efficient large vision/language models and image/video generation.
 
 **I'm always actively seeking collaboration opportunities. If you are interested, please feel free to contact me 😎.**
 
@@ -75,7 +75,7 @@ I am a first-year Ph.D. student at HKUST supervised by Prof. [Jun Zhang](https:/
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2024 Industry Track</div><img src='images/llmc.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[LLMC: Benchmarking Large Language Model Quantization with a Versatile Compression Toolkit](https://arxiv.org/pdf/2405.06001)<img src='https://img.shields.io/github/stars/ModelTC/llmc.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
+[LLMC: Benchmarking Large Language Model Quantization with a Versatile Compression Toolkit](https://arxiv.org/pdf/2405.06001) <img src='https://img.shields.io/github/stars/ModelTC/llmc.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
 
 Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunchen Zhang, Dacheng Tao, Xianglong Liu📧
 - A versatile LLM compression toolkit LLMC supports dozens of algorithms, models, and multiple inference backends with powerful expandability and all-around evaluation, enabling users to perform compression for LLMs (*i.e.*, DeepSeek-V3 and LLaMA-3.1 $405$B) with just a single GPU.
@@ -98,7 +98,7 @@ Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunche
 <div class='paper-box-text' markdown="1">
 
 [PTSBench: A Comprehensive Post-Training Sparsity Benchmark
-Towards Algorithms and Models](https://dl.acm.org/doi/pdf/10.1145/3664647.3680982)<img src='https://img.shields.io/github/stars/ModelTC/msbench.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
+Towards Algorithms and Models](https://dl.acm.org/doi/pdf/10.1145/3664647.3680982) <img src='https://img.shields.io/github/stars/ModelTC/msbench.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
 
 Zining Wang, Jinyang Guo, Ruihao Gong, Yang Yong, Aishan Liu, **Yushi Huang**, Jiaheng Liu, Xianglong Liu📧
 - The first systematic benchmark to conduct a comprehensive evaluation of PTS methods.
@@ -137,7 +137,7 @@ methods and sparsification-friendly model design. </p>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024 (Highlight)</div><img src='images/tfmq-dm.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[TFMQ-DM: Temporal Feature Maintenance Quantization for Diffusion Models](https://arxiv.org/pdf/2311.16503)<img src='https://img.shields.io/github/stars/ModelTC/TFMQ-DM.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
+[TFMQ-DM: Temporal Feature Maintenance Quantization for Diffusion Models](https://arxiv.org/pdf/2311.16503) <img src='https://img.shields.io/github/stars/ModelTC/TFMQ-DM.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
 
 **Yushi Huang\***, Ruihao Gong\*, Jing Liu, Tianlong Chen, Xianglong Liu📧
 
@@ -159,7 +159,7 @@ methods and sparsification-friendly model design. </p>
 </div>
 
 # 📋 Services
-- Conference Reviews: NeurIPS, ICLR, ICML, COLM
+- Conference Reviews: NeurIPS, ICLR, ICML, COLM.
 
 # 📖 Educations
 - *2025.02 - Now*, Ph.D. in Electronic Computer and Engineering, Hong Kong University of Science and Technology.
