@@ -98,14 +98,14 @@ Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunche
 <div class='paper-box-text' markdown="1">
 
 [PTSBench: A Comprehensive Post-Training Sparsity Benchmark
-Towards Algorithms and Models](https://dl.acm.org/doi/pdf/10.1145/3664647.3680982) <img src='https://img.shields.io/github/stars/ModelTC/msbench.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
+Towards Algorithms and Models](https://arxiv.org/pdf/2412.07268) <img src='https://img.shields.io/github/stars/ModelTC/msbench.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
 
 Zining Wang, Jinyang Guo, Ruihao Gong, Yang Yong, Aishan Liu, **Yushi Huang**, Jiaheng Liu, Xianglong Liu📧
 - The first systematic benchmark to conduct a comprehensive evaluation of PTS methods.
 - Uncover and summarize several useful insights and takeaway conclusions, which can serve as guidance for future PTS method design.
 - Serve as a well-organized codebase for future research of PTS algorithms.
 <div style="display: inline">
-    <a href="https://dl.acm.org/doi/pdf/10.1145/3664647.3680982"> <strong>[paper]</strong></a>
+    <a href="https://arxiv.org/pdf/2412.07268"> <strong>[paper]</strong></a>
     <a href="https://github.com/ModelTC/msbench"> <strong>[code]</strong></a>
     <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">
