@@ -23,7 +23,7 @@ I am a 1st-year Ph.D. student at HKUST, supervised by Prof. [Jun Zhang](https://
 
 
 # 🔥 News
-- *2025.5*: &nbsp;🎉🎉 Our HarmoniCa is accepted to ICML.
+- *2025.05*: &nbsp;🎉🎉 Our HarmoniCa is accepted to ICML.
 - *2024.10*: &nbsp;🎉🎉 Our LLMC is accepted to EMNLP Industry Track.
 - *2024.07*: &nbsp;🎉🎉 Our PTSBench is accepted to ACM MM.
 - *2024.02*: &nbsp;🎉🎉 Our TFMQ-DM is accepted to CVPR as a Highlight Poster (Top $2.8\\%$). 
