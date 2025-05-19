@@ -39,8 +39,8 @@ I am a 1st-year Ph.D. student at HKUST, supervised by Prof. [Jun Zhang](https://
 **Yushi Huang**, Ruihao Gong📧, Jing Liu, Yifu Ding, Chengtao Lv, Haotong Qin, Jun Zhang📧
 - This is the first QAT method for video generation and achieves effective 3-bit and 4-bit quantization.
 - This framework integrates auxiliary modules $\Phi$ to improve training convergence. 
-- To maintain performance while eliminating inference overhead induced by $\Phi$, we design a rank-decay schedule that progressively shrinks the entire $\Phi$ to $varnothing$ through iteratively applying SVD and a rank-based regularization $\gamma$.
-- Extensive experiments across advancing CogVideoX and Wan families demonstrate the SOTA performance of QVGen. Notably, our W4A4 model is the first time to show full-precision comparable performance. In addition, we apply QVGen to Wan 14B, one of the largest SOTA open-source models, and observe negligible performance drops on VBench-2.0.
+- To maintain performance while eliminating inference overhead induced by $\Phi$, we design a rank-decay schedule that progressively shrinks the entire $\Phi$ to $\varnothing$ through iteratively applying SVD and a rank-based regularization $\gamma$.
+- Extensive experiments across advancing CogVideoX and Wan families demonstrate the SOTA performance of QVGen. Notably, our W4A4 model is the first to show full-precision comparable performance. In addition, we apply QVGen to Wan 14B, one of the largest SOTA open-source models, and observe negligible performance drops on VBench-2.0.
 
 <div style="display: inline">
     <a href="https://arxiv.org/pdf/2505.11497"> <strong>[paper]</strong></a>
