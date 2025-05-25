@@ -61,7 +61,6 @@ I am a 1st-year Ph.D. student at HKUST, supervised by Prof. [Jun Zhang](https://
 **Yushi Huang\***, Zining Wang\*, Ruihao Gong📧, Jing Liu, Xinjie Zhang, Jinyang Guo, Xianglong Liu, Jun Zhang📧
 - Uncover two discrepancies between training and inference for the existing learning-based feature cache method.
 - Propose HarmoniCa built upon two training techniques to alleviate the discrepancies.
-- Extensive experiments on $2$ tasks across $8$ models and $4$ samplers with resolutions ranging from $256\times256$ to $2048\times2048$ prove the superiority and universality of our framework.
 - Achieve over $40\\%$ latency reduction (*i.e.*, $2.07\times$ theoretical speedup) and improved performance on PixArt-$\alpha$. Remarkably, our *image-free* approach reduces training time by $25\\%$ compared with the previous method.
 
 <div style="display: inline">
