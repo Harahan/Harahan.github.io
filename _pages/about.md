@@ -17,9 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a 1st-year Ph.D. student at HKUST, supervised by Prof. [Jun Zhang](https://eejzhang.people.ust.hk/home.html). I received my B.E. degree from Beihang University. I also work as a research intern at SenseTime Research, closely with Dr. [Ruihao Gong](https://xhplus.github.io/). Previously, I have also interned at Microsoft Research Asia and SenseTime Research. My research interests include efficient large vision/language models and image/video generation. Here's my latest [CV](images/Resume.pdf).
-
-**I'm always actively seeking collaboration opportunities. If you are interested, please feel free to contact me 😎.**
+I am a 1st-year Ph.D. student at HKUST, supervised by Prof. [Jun Zhang](https://eejzhang.people.ust.hk/home.html). I received my B.E. degree from Beihang University. I also work as a research intern at SenseTime Research, closely with Dr. [Ruihao Gong](https://xhplus.github.io/). Previously, I have interned at Microsoft Research Asia and SenseTime Research. My research interest focuses on efficient vision and language generative models. Here's my latest [CV](images/Resume.pdf).
 
 
 # 🔥 News
@@ -143,7 +141,7 @@ methods and sparsification-friendly model design. </p>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024 (Highlight)</div><img src='images/tfmq-dm.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024 Highlight</div><img src='images/tfmq-dm.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [TFMQ-DM: Temporal Feature Maintenance Quantization for Diffusion Models](https://arxiv.org/pdf/2311.16503) <img src='https://img.shields.io/github/stars/ModelTC/TFMQ-DM.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
