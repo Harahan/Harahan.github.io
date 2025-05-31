@@ -37,10 +37,6 @@ I am a 1st-year Ph.D. student at HKUST, supervised by Prof. [Jun Zhang](https://
 [QVGen: Pushing the Limit of Quantized Video Generative Models](https://arxiv.org/pdf/2505.11497)
 
 **Yushi Huang**, Ruihao Gong📧, Jing Liu, Yifu Ding, Chengtao Lv, Haotong Qin, Jun Zhang📧
-- This is the first QAT method for video generation and achieves effective 3-bit and 4-bit quantization.
-- This framework integrates auxiliary modules $\Phi$ to improve training convergence. 
-- To maintain performance while eliminating inference overhead induced by $\Phi$, we design a rank-decay schedule that progressively shrinks the entire $\Phi$ to $\varnothing$ through iteratively applying SVD and a rank-based regularization $\gamma$.
-- Extensive experiments across advancing CogVideoX and Wan families demonstrate the SOTA performance of QVGen. Notably, our W4A4 model is the first to show full-precision comparable performance. In addition, we apply QVGen to Wan 14B, one of the largest SOTA open-source models, and observe negligible performance drops on VBench-2.0.
 
 <div style="display: inline">
     <a href="https://arxiv.org/pdf/2505.11497"> <strong>[paper]</strong></a>
@@ -59,9 +55,6 @@ I am a 1st-year Ph.D. student at HKUST, supervised by Prof. [Jun Zhang](https://
 [HarmoniCa: Harmonizing Training and Inference for Better Feature Caching in Diffusion Transformer Acceleration](https://arxiv.org/pdf/2410.01723) <img src='https://img.shields.io/github/stars/ModelTC/HarmoniCa.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
 
 **Yushi Huang\***, Zining Wang\*, Ruihao Gong📧, Jing Liu, Xinjie Zhang, Jinyang Guo, Xianglong Liu, Jun Zhang📧
-- Uncover two discrepancies between training and inference for the existing learning-based feature cache method.
-- Propose HarmoniCa built upon two training techniques to alleviate the discrepancies.
-- Achieve over $40\\%$ latency reduction (*i.e.*, $2.07\times$ theoretical speedup) and improved performance on PixArt-$\alpha$. Remarkably, our *image-free* approach reduces training time by $25\\%$ compared with the previous method.
 
 <div style="display: inline">
     <a href="https://arxiv.org/pdf/2410.01723"> <strong>[paper]</strong></a>
@@ -81,9 +74,6 @@ I am a 1st-year Ph.D. student at HKUST, supervised by Prof. [Jun Zhang](https://
 [Temporal Feature Matters: A Framework for Diffusion Model Quantization](https://arxiv.org/pdf/2407.19547)
 
 **Yushi Huang**, Ruihao Gong, Xianglong Liu📧, Jing Liu, Yuhang Li, Jiwen Lu, Dacheng Tao
-- Compare and analyze the sensitivity and disturbance for temporal and non-temporal features.
-- Propose TIB-based and Cache-based Maintenance with Disturbance-aware Selection for temporal feature maintenance.
-- Reduce the FID score by $5.61$ under the w4a8 configuration for SD-XL. Additionally, achieve $2.20\times$ and $5.76\times$ speedup on CPU and GPU, respectively.
 
 <div style="display: inline">
     <a href="https://arxiv.org/pdf/2407.19547"> <strong>[paper]</strong></a>
@@ -102,9 +92,6 @@ I am a 1st-year Ph.D. student at HKUST, supervised by Prof. [Jun Zhang](https://
 [LLMC: Benchmarking Large Language Model Quantization with a Versatile Compression Toolkit](https://arxiv.org/pdf/2405.06001) <img src='https://img.shields.io/github/stars/ModelTC/llmc.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
 
 Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunchen Zhang, Dacheng Tao, Xianglong Liu📧
-- A versatile LLM compression toolkit LLMC supports dozens of algorithms, models, and multiple inference backends with powerful expandability and all-around evaluation, enabling users to perform compression for LLMs (*i.e.*, DeepSeek-V3 and LLaMA-3.1 $405$B) with just a single GPU.
-- Modularly and fairly benchmark LLM quantization considering calibration data, algorithms, and data type.
-- With detailed observation and analysis, various types of novel points for performance and method improvements under different configurations.
 
 <div style="display: inline">
     <a href="https://arxiv.org/pdf/2405.06001"> <strong>[paper]</strong></a>
@@ -125,9 +112,7 @@ Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunche
 Towards Algorithms and Models](https://arxiv.org/pdf/2412.07268) <img src='https://img.shields.io/github/stars/ModelTC/msbench.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
 
 Zining Wang, Jinyang Guo, Ruihao Gong, Yang Yong, Aishan Liu, **Yushi Huang**, Jiaheng Liu, Xianglong Liu📧
-- The first systematic benchmark to conduct a comprehensive evaluation of PTS methods.
-- Uncover and summarize several useful insights and takeaway conclusions, which can serve as guidance for future PTS method design.
-- Serve as a well-organized codebase for future research of PTS algorithms.
+
 <div style="display: inline">
     <a href="https://arxiv.org/pdf/2412.07268"> <strong>[paper]</strong></a>
     <a href="https://github.com/ModelTC/msbench"> <strong>[code]</strong></a>
@@ -164,10 +149,6 @@ methods and sparsification-friendly model design. </p>
 [TFMQ-DM: Temporal Feature Maintenance Quantization for Diffusion Models](https://arxiv.org/pdf/2311.16503) <img src='https://img.shields.io/github/stars/ModelTC/TFMQ-DM.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
 
 **Yushi Huang\***, Ruihao Gong\*, Jing Liu, Tianlong Chen, Xianglong Liu📧
-
-- First observe temporal disturbance and provide detailed analyses.
-- Propose TIAR and FSC for temporal feature maintenance.
-- Reduce FID by $6.71$ and $2.26$ for CelebA-HQ $256\times256$ and LSUN-Bedrooms $256\times256$, respectively.
 
 <div style="display: inline">
     <a href="https://arxiv.org/pdf/2311.16503"> <strong>[paper]</strong></a>
