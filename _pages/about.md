@@ -21,6 +21,7 @@ I am a 1st-year Ph.D. student at HKUST, supervised by Prof. [Jun Zhang](https://
 
 
 # 🔥 News
+- *2025.06*: &nbsp;🎉🎉 Our Temporal Feature Matters is accepted to TPAMI.
 - *2025.05*: &nbsp;🎉🎉 Our HarmoniCa is accepted to ICML.
 - *2024.10*: &nbsp;🎉🎉 Our LLMC is accepted to EMNLP Industry Track.
 - *2024.07*: &nbsp;🎉🎉 Our PTSBench is accepted to ACM MM.
@@ -66,7 +67,7 @@ I am a 1st-year Ph.D. student at HKUST, supervised by Prof. [Jun Zhang](https://
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/temporal-feature-matters.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI</div><img src='images/temporal-feature-matters.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Temporal Feature Matters: A Framework for Diffusion Model Quantization](https://arxiv.org/pdf/2407.19547)
