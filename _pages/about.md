@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a 1st-year Ph.D. student at HKUST, supervised by Prof. [Jun Zhang](https://eejzhang.people.ust.hk/home.html). I received my B.E. degree from Beihang University. I also work as a research intern at SenseTime Research, closely with Dr. [Ruihao Gong](https://xhplus.github.io/). Previously, I have interned at Microsoft Research Asia and SenseTime Research. My research interest focuses on efficient vision and language generative models. Here's my latest [CV](images/Resume.pdf).
+I am a 1st-year Ph.D. student at HKUST, supervised by Prof. [Jun Zhang](https://eejzhang.people.ust.hk/home.html). I received my B.E. degree from Beihang University. I also work as a research intern at SenseTime Research, closely with Dr. [Ruihao Gong](https://xhplus.github.io/). Previously, I have interned at Microsoft Research Asia and SenseTime Research. My research interest focuses on efficient vision and language generative models.
 
 
 # 🔥 News
