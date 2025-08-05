@@ -164,7 +164,7 @@ methods and sparsification-friendly model design. </p>
 </div>
 
 # 📋 Services
-- Conference Reviews: NeurIPS, ICLR, ICML, COLM.
+- Conference Reviews: NeurIPS, ICLR, ICML, COLM, AAAI.
 
 # 📖 Educations
 - *2025.02 - Now*, Ph.D. in Electronic Computer and Engineering, the Hong Kong University of Science and Technology.
