@@ -105,6 +105,44 @@ Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunche
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024 Highlight</div><img src='images/tfmq-dm.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[TFMQ-DM: Temporal Feature Maintenance Quantization for Diffusion Models](https://arxiv.org/pdf/2311.16503) <img src='https://img.shields.io/github/stars/ModelTC/TFMQ-DM.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
+
+**Yushi Huang\***, Ruihao Gong\*, Jing Liu, Tianlong Chen, Xianglong Liu📧
+
+<div style="display: inline">
+    <a href="https://arxiv.org/pdf/2311.16503"> <strong>[paper]</strong></a>
+    <a href="https://github.com/ModelTC/TFMQ-DM"> <strong>[code]</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <div class="abstract"  style="overflow: hidden; display: none;">
+        <p> The Diffusion model, a prevalent framework for image generation, encounters significant challenges in terms of broad applicability due to its extended inference times and substantial memory requirements. Efficient Post-training Quantization (PTQ) is pivotal for addressing these issues in traditional models. Different from traditional models, diffusion models heavily depend on the time-step $t$ to achieve satisfactory multi-round denoising. Usually, $t$ from the finite set $\{1, \ldots, T\}$ is encoded to a temporal feature by a few modules totally irrespective of the sampling data. However, existing PTQ methods do not optimize these modules separately. They adopt inappropriate reconstruction targets and complex calibration methods, resulting in a severe disturbance of the temporal feature and denoising trajectory, as well as a low compression efficiency. To solve these, we propose a Temporal Feature Maintenance Quantization (TFMQ) framework building upon a Temporal Information Block which is just related to the time-step $t$ and unrelated to the sampling data. Powered by the pioneering block design, we devise temporal information aware reconstruction (TIAR) and finite set calibration (FSC) to align the full-precision temporal features in a limited time. Equipped with the framework, we can maintain the most temporal information and ensure the end-to-end generation quality. Extensive experiments on various datasets and diffusion models prove our state-of-the-art results. Remarkably, our quantization approach, for the first time, achieves model performance nearly on par with the full-precision model under 4-bit weight quantization. Additionally, our method incurs almost no extra computational cost and accelerates quantization time by $2.0\times$ on LSUN-Bedrooms $256\times 256$ compared to previous works.  </p>
+    </div>
+    <a href="https://modeltc.github.io/TFMQ-DM/"> <strong>[project page]</strong></a>
+</div>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/vlmq.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[VLMQ: Efficient Post-Training Quantization for Large Vision-Language Models via Hessian Augmentation](https://arxiv.org/pdf/2508.03351)
+
+Yufei Xue, **Yushi Huang**, Jiawei Shao, Jun Zhang
+
+<div style="display: inline">
+    <a href="https://arxiv.org/pdf/2508.03351"> <strong>[paper]</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <div class="abstract"  style="overflow: hidden; display: none;">
+        <p> Post-training quantization (PTQ) has emerged as an effective approach for compressing large models and accelerating their inference without retraining. While PTQ has been extensively studied in the context of large language models (LLMs), its applicability to vision-language models (VLMs) remains underexplored. In this paper, we identify a modality discrepancy (i.e., limited text tokens vs. excessive and redundant vision tokens) of VLMs. However, existing Hessian-based LLM PTQ methods treat all tokens equally during quantization, resulting in severe performance drops when applied to VLMs. Motivated by this observation, we propose a novel importance-aware PTQ framework tailored for VLMs, dubbed VLMQ. Specifically, to address vision token redundancy, VLMQ 1) optimizes an importance-aware objective that yields an enhanced Hessian with token-level importance factors, while retaining compatibility with parallelized weight updates, and 2) ensures efficiency and effectiveness by computing these factors via a single lightweight block-wise backward pass, guided by a theoretical connection to token-level perturbations. Extensive evaluations on 8 benchmarks across 0.5B~32B VLMs demonstrate the state-of-the-art (SOTA) performance of our VLMQ, particularly under low-bit settings. For example, it achieves a substantial $16.45\%$ improvement on MME-RealWorld under 2-bit quantization. </p>
+    </div>
+</div>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2024</div><img src='images/pts-bench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -138,26 +176,6 @@ ability evaluation. We hope this work will provide illuminating
 conclusions and advice for future studies of post-training sparsity
 methods and sparsification-friendly model design. </p>
     </div>
-</div>
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024 Highlight</div><img src='images/tfmq-dm.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[TFMQ-DM: Temporal Feature Maintenance Quantization for Diffusion Models](https://arxiv.org/pdf/2311.16503) <img src='https://img.shields.io/github/stars/ModelTC/TFMQ-DM.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
-
-**Yushi Huang\***, Ruihao Gong\*, Jing Liu, Tianlong Chen, Xianglong Liu📧
-
-<div style="display: inline">
-    <a href="https://arxiv.org/pdf/2311.16503"> <strong>[paper]</strong></a>
-    <a href="https://github.com/ModelTC/TFMQ-DM"> <strong>[code]</strong></a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
-    <div class="abstract"  style="overflow: hidden; display: none;">
-        <p> The Diffusion model, a prevalent framework for image generation, encounters significant challenges in terms of broad applicability due to its extended inference times and substantial memory requirements. Efficient Post-training Quantization (PTQ) is pivotal for addressing these issues in traditional models. Different from traditional models, diffusion models heavily depend on the time-step $t$ to achieve satisfactory multi-round denoising. Usually, $t$ from the finite set $\{1, \ldots, T\}$ is encoded to a temporal feature by a few modules totally irrespective of the sampling data. However, existing PTQ methods do not optimize these modules separately. They adopt inappropriate reconstruction targets and complex calibration methods, resulting in a severe disturbance of the temporal feature and denoising trajectory, as well as a low compression efficiency. To solve these, we propose a Temporal Feature Maintenance Quantization (TFMQ) framework building upon a Temporal Information Block which is just related to the time-step $t$ and unrelated to the sampling data. Powered by the pioneering block design, we devise temporal information aware reconstruction (TIAR) and finite set calibration (FSC) to align the full-precision temporal features in a limited time. Equipped with the framework, we can maintain the most temporal information and ensure the end-to-end generation quality. Extensive experiments on various datasets and diffusion models prove our state-of-the-art results. Remarkably, our quantization approach, for the first time, achieves model performance nearly on par with the full-precision model under 4-bit weight quantization. Additionally, our method incurs almost no extra computational cost and accelerates quantization time by $2.0\times$ on LSUN-Bedrooms $256\times 256$ compared to previous works.  </p>
-    </div>
-    <a href="https://modeltc.github.io/TFMQ-DM/"> <strong>[project page]</strong></a>
 </div>
 
 </div>
