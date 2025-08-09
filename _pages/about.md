@@ -30,6 +30,24 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 # 📝 Publications 
 (\* indicates equal contribution, 📧 indicates corresponding author.)
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/vlmq.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[VLMQ: Efficient Post-Training Quantization for Large Vision-Language Models via Hessian Augmentation](https://arxiv.org/pdf/2508.03351)
+
+Yufei Xue, **Yushi Huang**, Jiawei Shao, Jun Zhang
+
+<div style="display: inline">
+    <a href="https://arxiv.org/pdf/2508.03351"> <strong>[paper]</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <div class="abstract"  style="overflow: hidden; display: none;">
+        <p> Post-training quantization (PTQ) has emerged as an effective approach for compressing large models and accelerating their inference without retraining. While PTQ has been extensively studied in the context of large language models (LLMs), its applicability to vision-language models (VLMs) remains underexplored. In this paper, we identify a modality discrepancy (i.e., limited text tokens vs. excessive and redundant vision tokens) of VLMs. However, existing Hessian-based LLM PTQ methods treat all tokens equally during quantization, resulting in severe performance drops when applied to VLMs. Motivated by this observation, we propose a novel importance-aware PTQ framework tailored for VLMs, dubbed VLMQ. Specifically, to address vision token redundancy, VLMQ 1) optimizes an importance-aware objective that yields an enhanced Hessian with token-level importance factors, while retaining compatibility with parallelized weight updates, and 2) ensures efficiency and effectiveness by computing these factors via a single lightweight block-wise backward pass, guided by a theoretical connection to token-level perturbations. Extensive evaluations on 8 benchmarks across 0.5B~32B VLMs demonstrate the state-of-the-art (SOTA) performance of our VLMQ, particularly under low-bit settings. For example, it achieves a substantial $16.45\%$ improvement on MME-RealWorld under 2-bit quantization. </p>
+    </div>
+</div>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/qvgen.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -42,25 +60,6 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
     <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">
         <p> Video diffusion models (DMs) have enabled high-quality video synthesis. Yet, their substantial computational and memory demands pose serious challenges to real-world deployment, even on high-end GPUs. As a commonly adopted solution, quantization has proven notable success in reducing cost for image DMs, while its direct application to video DMs remains ineffective. In this paper, we present QVGen, a novel quantization-aware training (QAT) framework tailored for high-performance and inference-efficient video DMs under extremely low-bit quantization (e.g., 4-bit or below). We begin with a theoretical analysis demonstrating that reducing the gradient norm is essential to facilitate convergence for QAT. To this end, we introduce auxiliary modules ($\Phi$) to mitigate large quantization errors, leading to significantly enhanced convergence. To eliminate the inference overhead of $\Phi$, we propose a rank-decay strategy that progressively eliminates $\Phi$. Specifically, we repeatedly employ singular value decomposition (SVD) and a proposed rank-based regularization $\gamma$ to identify and decay low-contributing components. This strategy retains performance while zeroing out inference overhead. Extensive experiments across $4$ state-of-the-art (SOTA) video DMs, with parameter sizes ranging from $1.3$B$\sim14$B, show that QVGen is the first to reach full-precision comparable quality under 4-bit settings. Moreover, it significantly outperforms existing methods. For instance, our 3-bit CogVideoX-2B achieves improvements of $+25.28$ in Dynamic Degree and $+8.43$ in Scene Consistency on VBench. </p>
-    </div>
-</div>
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/harmonica.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[HarmoniCa: Harmonizing Training and Inference for Better Feature Caching in Diffusion Transformer Acceleration](https://arxiv.org/pdf/2410.01723) <img src='https://img.shields.io/github/stars/ModelTC/HarmoniCa.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
-
-**Yushi Huang\***, Zining Wang\*, Ruihao Gong📧, Jing Liu, Xinjie Zhang, Jinyang Guo, Xianglong Liu, Jun Zhang📧
-
-<div style="display: inline">
-    <a href="https://arxiv.org/pdf/2410.01723"> <strong>[paper]</strong></a>
-  <a href="https://github.com/ModelTC/HarmoniCa"> <strong>[code]</strong></a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
-    <div class="abstract"  style="overflow: hidden; display: none;">
-        <p> Diffusion Transformers (DiTs) excel in generative tasks but face practical deployment challenges due to high inference costs. Feature caching, which stores and retrieves redundant computations, offers the potential for acceleration. Existing learning-based caching, though adaptive, overlooks the impact of the prior timestep. It also suffers from misaligned objectives-aligned predicted noise vs. high-quality images-between training and inference. These two discrepancies compromise both performance and efficiency. To this end, we harmonize training and inference with a novel learning-based caching framework dubbed HarmoniCa. It first incorporates Step-Wise Denoising Training (SDT) to ensure the continuity of the denoising process, where prior steps can be leveraged. In addition, an Image Error Proxy-Guided Objective (IEPO) is applied to balance image quality against cache utilization through an efficient proxy to approximate the image error. Extensive experiments across $8$ models, $4$ samplers, and resolutions from $256\times256$ to $2K$ demonstrate superior performance and speedup of our framework. For instance, it achieves over $40\%$ latency reduction (i.e., $2.07\times$ theoretical speedup) and improved performance on PixArt-$\alpha$. Remarkably, our image-free approach reduces training time by $25\%$ compared with the previous method. </p>
     </div>
 </div>
 
@@ -86,6 +85,25 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/harmonica.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[HarmoniCa: Harmonizing Training and Inference for Better Feature Caching in Diffusion Transformer Acceleration](https://arxiv.org/pdf/2410.01723) <img src='https://img.shields.io/github/stars/ModelTC/HarmoniCa.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
+
+**Yushi Huang\***, Zining Wang\*, Ruihao Gong📧, Jing Liu, Xinjie Zhang, Jinyang Guo, Xianglong Liu, Jun Zhang📧
+
+<div style="display: inline">
+    <a href="https://arxiv.org/pdf/2410.01723"> <strong>[paper]</strong></a>
+  <a href="https://github.com/ModelTC/HarmoniCa"> <strong>[code]</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <div class="abstract"  style="overflow: hidden; display: none;">
+        <p> Diffusion Transformers (DiTs) excel in generative tasks but face practical deployment challenges due to high inference costs. Feature caching, which stores and retrieves redundant computations, offers the potential for acceleration. Existing learning-based caching, though adaptive, overlooks the impact of the prior timestep. It also suffers from misaligned objectives-aligned predicted noise vs. high-quality images-between training and inference. These two discrepancies compromise both performance and efficiency. To this end, we harmonize training and inference with a novel learning-based caching framework dubbed HarmoniCa. It first incorporates Step-Wise Denoising Training (SDT) to ensure the continuity of the denoising process, where prior steps can be leveraged. In addition, an Image Error Proxy-Guided Objective (IEPO) is applied to balance image quality against cache utilization through an efficient proxy to approximate the image error. Extensive experiments across $8$ models, $4$ samplers, and resolutions from $256\times256$ to $2K$ demonstrate superior performance and speedup of our framework. For instance, it achieves over $40\%$ latency reduction (i.e., $2.07\times$ theoretical speedup) and improved performance on PixArt-$\alpha$. Remarkably, our image-free approach reduces training time by $25\%$ compared with the previous method. </p>
+    </div>
+</div>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2024 Industry Track</div><img src='images/llmc.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -99,44 +117,6 @@ Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunche
     <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">
         <p> Recent advancements in large language models (LLMs) are propelling us toward artificial general intelligence with their remarkable emergent abilities and reasoning capabilities. However, the substantial computational and memory requirements limit the widespread adoption. Quantization, a key compression technique, can effectively mitigate these demands by compressing and accelerating LLMs, albeit with potential risks to accuracy. Numerous studies have aimed to minimize the accuracy loss associated with quantization. However, their quantization configurations vary from each other and cannot be fairly compared. In this paper, we present LLMC, a plug-and-play compression toolkit, to fairly and systematically explore the impact of quantization. LLMC integrates dozens of algorithms, models, and hardwares, offering high extensibility from integer to floating-point quantization, from LLM to vision-language (VLM) model, from fixed-bit to mixed precision, and from quantization to sparsification. Powered by this versatile toolkit, our benchmark covers three key aspects: calibration data, algorithms (three strategies), and data formats, providing novel insights and detailed analyses for further research and practical guidance for users. </p>
-    </div>
-</div>
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024 Highlight</div><img src='images/tfmq-dm.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[TFMQ-DM: Temporal Feature Maintenance Quantization for Diffusion Models](https://arxiv.org/pdf/2311.16503) <img src='https://img.shields.io/github/stars/ModelTC/TFMQ-DM.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
-
-**Yushi Huang\***, Ruihao Gong\*, Jing Liu, Tianlong Chen, Xianglong Liu📧
-
-<div style="display: inline">
-    <a href="https://arxiv.org/pdf/2311.16503"> <strong>[paper]</strong></a>
-    <a href="https://github.com/ModelTC/TFMQ-DM"> <strong>[code]</strong></a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
-    <div class="abstract"  style="overflow: hidden; display: none;">
-        <p> The Diffusion model, a prevalent framework for image generation, encounters significant challenges in terms of broad applicability due to its extended inference times and substantial memory requirements. Efficient Post-training Quantization (PTQ) is pivotal for addressing these issues in traditional models. Different from traditional models, diffusion models heavily depend on the time-step $t$ to achieve satisfactory multi-round denoising. Usually, $t$ from the finite set $\{1, \ldots, T\}$ is encoded to a temporal feature by a few modules totally irrespective of the sampling data. However, existing PTQ methods do not optimize these modules separately. They adopt inappropriate reconstruction targets and complex calibration methods, resulting in a severe disturbance of the temporal feature and denoising trajectory, as well as a low compression efficiency. To solve these, we propose a Temporal Feature Maintenance Quantization (TFMQ) framework building upon a Temporal Information Block which is just related to the time-step $t$ and unrelated to the sampling data. Powered by the pioneering block design, we devise temporal information aware reconstruction (TIAR) and finite set calibration (FSC) to align the full-precision temporal features in a limited time. Equipped with the framework, we can maintain the most temporal information and ensure the end-to-end generation quality. Extensive experiments on various datasets and diffusion models prove our state-of-the-art results. Remarkably, our quantization approach, for the first time, achieves model performance nearly on par with the full-precision model under 4-bit weight quantization. Additionally, our method incurs almost no extra computational cost and accelerates quantization time by $2.0\times$ on LSUN-Bedrooms $256\times 256$ compared to previous works.  </p>
-    </div>
-    <a href="https://modeltc.github.io/TFMQ-DM/"> <strong>[project page]</strong></a>
-</div>
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/vlmq.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[VLMQ: Efficient Post-Training Quantization for Large Vision-Language Models via Hessian Augmentation](https://arxiv.org/pdf/2508.03351)
-
-Yufei Xue, **Yushi Huang**, Jiawei Shao, Jun Zhang
-
-<div style="display: inline">
-    <a href="https://arxiv.org/pdf/2508.03351"> <strong>[paper]</strong></a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
-    <div class="abstract"  style="overflow: hidden; display: none;">
-        <p> Post-training quantization (PTQ) has emerged as an effective approach for compressing large models and accelerating their inference without retraining. While PTQ has been extensively studied in the context of large language models (LLMs), its applicability to vision-language models (VLMs) remains underexplored. In this paper, we identify a modality discrepancy (i.e., limited text tokens vs. excessive and redundant vision tokens) of VLMs. However, existing Hessian-based LLM PTQ methods treat all tokens equally during quantization, resulting in severe performance drops when applied to VLMs. Motivated by this observation, we propose a novel importance-aware PTQ framework tailored for VLMs, dubbed VLMQ. Specifically, to address vision token redundancy, VLMQ 1) optimizes an importance-aware objective that yields an enhanced Hessian with token-level importance factors, while retaining compatibility with parallelized weight updates, and 2) ensures efficiency and effectiveness by computing these factors via a single lightweight block-wise backward pass, guided by a theoretical connection to token-level perturbations. Extensive evaluations on 8 benchmarks across 0.5B~32B VLMs demonstrate the state-of-the-art (SOTA) performance of our VLMQ, particularly under low-bit settings. For example, it achieves a substantial $16.45\%$ improvement on MME-RealWorld under 2-bit quantization. </p>
     </div>
 </div>
 
@@ -180,6 +160,27 @@ methods and sparsification-friendly model design. </p>
 
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024 Highlight</div><img src='images/tfmq-dm.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[TFMQ-DM: Temporal Feature Maintenance Quantization for Diffusion Models](https://arxiv.org/pdf/2311.16503) <img src='https://img.shields.io/github/stars/ModelTC/TFMQ-DM.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
+
+**Yushi Huang\***, Ruihao Gong\*, Jing Liu, Tianlong Chen, Xianglong Liu📧
+
+<div style="display: inline">
+    <a href="https://arxiv.org/pdf/2311.16503"> <strong>[paper]</strong></a>
+    <a href="https://github.com/ModelTC/TFMQ-DM"> <strong>[code]</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <div class="abstract"  style="overflow: hidden; display: none;">
+        <p> The Diffusion model, a prevalent framework for image generation, encounters significant challenges in terms of broad applicability due to its extended inference times and substantial memory requirements. Efficient Post-training Quantization (PTQ) is pivotal for addressing these issues in traditional models. Different from traditional models, diffusion models heavily depend on the time-step $t$ to achieve satisfactory multi-round denoising. Usually, $t$ from the finite set $\{1, \ldots, T\}$ is encoded to a temporal feature by a few modules totally irrespective of the sampling data. However, existing PTQ methods do not optimize these modules separately. They adopt inappropriate reconstruction targets and complex calibration methods, resulting in a severe disturbance of the temporal feature and denoising trajectory, as well as a low compression efficiency. To solve these, we propose a Temporal Feature Maintenance Quantization (TFMQ) framework building upon a Temporal Information Block which is just related to the time-step $t$ and unrelated to the sampling data. Powered by the pioneering block design, we devise temporal information aware reconstruction (TIAR) and finite set calibration (FSC) to align the full-precision temporal features in a limited time. Equipped with the framework, we can maintain the most temporal information and ensure the end-to-end generation quality. Extensive experiments on various datasets and diffusion models prove our state-of-the-art results. Remarkably, our quantization approach, for the first time, achieves model performance nearly on par with the full-precision model under 4-bit weight quantization. Additionally, our method incurs almost no extra computational cost and accelerates quantization time by $2.0\times$ on LSUN-Bedrooms $256\times 256$ compared to previous works.  </p>
+    </div>
+    <a href="https://modeltc.github.io/TFMQ-DM/"> <strong>[project page]</strong></a>
+</div>
+
+</div>
+</div>
+
 
 # 📋 Services
 - Conference Reviews: NeurIPS, ICLR, ICML, COLM, AAAI.
