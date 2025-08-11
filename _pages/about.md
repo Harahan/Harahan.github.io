@@ -30,6 +30,27 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 # 📝 Publications 
 (\* indicates equal contribution, 📧 indicates corresponding author.)
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/sliminer.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[SlimInfer: Accelerating Long-Context LLM Inference via Dynamic Token Pruning](https://arxiv.org/pdf/2508.06447)
+
+Lingkun Long, Ruibin Yang, **Yushi Huang**, Desheng Hui, Ao Zhou, Jianlei Yang📧
+
+<div style="display: inline">
+    <a href="https://arxiv.org/pdf/2508.06447"> <strong>[paper]</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <div class="abstract"  style="overflow: hidden; display: none;">
+        <p> Long-context inference for Large Language Models (LLMs) is heavily limited by high computational demands. While several existing methods optimize attention computation, they still process the full set of hidden states at each layer, limiting overall efficiency. In this work, we propose SlimInfer, an innovative framework that aims to accelerate inference by directly pruning less critical prompt tokens during the forward pass. Our key insight is an information diffusion
+        phenomenon: As information from critical tokens propagates through layers, it becomes distributed across the entire sequence. This diffusion process suggests that LLMs can maintain their semantic integrity when excessive tokens, even including these critical ones, are pruned in hidden states. Motivated by this, SlimInfer introduces a dynamic fine-grained pruning mechanism that accurately removes redundant tokens of hidden state at intermediate layers. This layer-wise pruning naturally enables an asynchronous KV cache manager that prefetches required token blocks without complex predictors, reducing both memory usage and I/O costs. Extensive experiments show that SlimInfer can achieve up to $2.53\times$ timeto-first-token (TTFT) speedup and $1.88\times$ end-to-end latency reduction for LLaMA3.1-8B-Instruct on a single RTX 4090,
+        without sacrificing performance on LongBench.  </p>
+    </div>
+</div>
+
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/vlmq.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
