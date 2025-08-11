@@ -30,7 +30,7 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 # 📝 Publications 
 (\* indicates equal contribution, 📧 indicates corresponding author.)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/sliminer.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/sliminfer.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [SlimInfer: Accelerating Long-Context LLM Inference via Dynamic Token Pruning](https://arxiv.org/pdf/2508.06447)
