@@ -35,7 +35,7 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 
 [SlimInfer: Accelerating Long-Context LLM Inference via Dynamic Token Pruning](https://arxiv.org/pdf/2508.06447)
 
-Lingkun Long, Ruibin Yang, **Yushi Huang**, Desheng Hui, Ao Zhou, Jianlei Yang📧
+Lingkun Long, Rubing Yang, **Yushi Huang**, Desheng Hui, Ao Zhou, Jianlei Yang📧
 
 <div style="display: inline">
     <a href="https://arxiv.org/pdf/2508.06447"> <strong>[paper]</strong></a>
