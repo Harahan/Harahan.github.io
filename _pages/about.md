@@ -36,7 +36,7 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 [LLMC+: Benchmarking Vision-Language Model Compression with a
 Plug-and-play Toolkit](https://www.arxiv.org/pdf/2508.09981) <img src='https://img.shields.io/github/stars/ModelTC/llmc.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
 
-Chengtao Lv, Bilang Zhang, Yang Yong, Ruihao Gong📧, **Yushi Huang**, Shiqiao Gu, Jiajun Wu3, Yumeng Shi, Jinyang Guo, Wenya Wang📧
+Chengtao Lv, Bilang Zhang, Yang Yong, Ruihao Gong📧, **Yushi Huang**, Shiqiao Gu, Jiajun Wu, Yumeng Shi, Jinyang Guo, Wenya Wang📧
 
 <div style="display: inline">
     <a href="https://www.arxiv.org/pdf/2508.09981"> <strong>[paper]</strong></a>
