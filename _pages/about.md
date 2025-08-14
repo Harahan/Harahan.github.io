@@ -30,6 +30,37 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 # 📝 Publications 
 (\* indicates equal contribution, 📧 indicates corresponding author.)
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/llmc+.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[LLMC+: Benchmarking Vision-Language Model Compression with a
+Plug-and-play Toolkit](https://www.arxiv.org/pdf/2508.09981) <img src='https://img.shields.io/github/stars/ModelTC/llmc.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
+
+Chengtao Lv, Bilang Zhang, Yang Yong, Ruihao Gong📧, **Yushi Huang**, Shiqiao Gu, Jiajun Wu3, Yumeng Shi, Jinyang Guo, Wenya Wang📧
+
+<div style="display: inline">
+    <a href="https://www.arxiv.org/pdf/2508.09981"> <strong>[paper]</strong></a>
+    <a href="https://github.com/ModelTC/lightcompress"> <strong>[code]</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <div class="abstract"  style="overflow: hidden; display: none;">
+        <p> Large Vision-Language Models (VLMs) exhibit impressive
+        multi-modal capabilities but suffer from prohibitive computational and memory demands, due to their long visual token
+        sequences and massive parameter sizes. To address these issues, recent works have proposed training-free compression
+        methods. However, existing efforts often suffer from three
+        major limitations: (1) Current approaches do not decompose
+        techniques into comparable modules, hindering fair evaluation across spatial and temporal redundancy. (2) Evaluation
+        confined to simple single-turn tasks, failing to reflect performance in realistic scenarios. (3) Isolated use of individual
+        compression techniques, without exploring their joint potential. To overcome these gaps, we introduce LLMC+, a comprehensive VLM compression benchmark with a versatile,
+        plug-and-play toolkit. LLMC+ supports over 20 algorithms
+        across five representative VLM families and enables systematic study of token-level and model-level compression. Our
+        benchmark reveals that: (1) Spatial and temporal redundancies demand distinct technical strategies. (2) Token reduction methods degrade significantly in multi-turn dialogue and
+        detail-sensitive tasks. (3) Combining token and model compression achieves extreme compression with minimal performance loss. We believe LLMC+ will facilitate fair evaluation and inspire future research in efficient VLM.  </p>
+    </div>
+</div>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/sliminfer.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -134,7 +165,7 @@ Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunche
 
 <div style="display: inline">
     <a href="https://arxiv.org/pdf/2405.06001"> <strong>[paper]</strong></a>
-    <a href="https://github.com/ModelTC/llmc"> <strong>[code]</strong></a>
+    <a href="https://github.com/ModelTC/LightCompress"> <strong>[code]</strong></a>
     <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">
         <p> Recent advancements in large language models (LLMs) are propelling us toward artificial general intelligence with their remarkable emergent abilities and reasoning capabilities. However, the substantial computational and memory requirements limit the widespread adoption. Quantization, a key compression technique, can effectively mitigate these demands by compressing and accelerating LLMs, albeit with potential risks to accuracy. Numerous studies have aimed to minimize the accuracy loss associated with quantization. However, their quantization configurations vary from each other and cannot be fairly compared. In this paper, we present LLMC, a plug-and-play compression toolkit, to fairly and systematically explore the impact of quantization. LLMC integrates dozens of algorithms, models, and hardwares, offering high extensibility from integer to floating-point quantization, from LLM to vision-language (VLM) model, from fixed-bit to mixed precision, and from quantization to sparsification. Powered by this versatile toolkit, our benchmark covers three key aspects: calibration data, algorithms (three strategies), and data formats, providing novel insights and detailed analyses for further research and practical guidance for users. </p>
