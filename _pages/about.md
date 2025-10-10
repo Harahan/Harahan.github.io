@@ -30,11 +30,28 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 # 📝 Publications 
 (\* indicates equal contribution, 📧 indicates corresponding author.)
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/linvideo.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[LinVideo: A Post-Training Framework towards $\mathcal{O}(n)$ Attention in Efficient Video Generation](https://arxiv.org/pdf/2510.08318)
+
+**Yushi Huang**, Xingtong Ge, Ruihao Gong📧, Chengtao Lv, Jun Zhang📧
+
+<div style="display: inline">
+    <a href="https://arxiv.org/pdf/2510.08318"> <strong>[paper]</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <div class="abstract"  style="overflow: hidden; display: none;">
+        <p> Video diffusion models (DMs) have enabled high-quality video synthesis. However, their computation costs scale quadratically with sequence length because self-attention has quadratic complexity. While linear attention lowers the cost, fully replacing quadratic attention requires expensive pretraining due to the limited expressiveness of linear attention and the complexity of spatiotemporal modeling in video generation. In this paper, we present LinVideo, an efficient data-free post-training framework that replaces a target number of self-attention modules with linear attention while preserving the original model's performance. First, we observe a significant disparity in the replaceability of different layers. Instead of manual or heuristic choices, we frame layer selection as a binary classification problem and propose selective transfer, which automatically and progressively converts layers to linear attention with minimal performance impact. Additionally, to overcome the ineffectiveness and inefficiency of existing objectives for this transfer process, we introduce an anytime distribution matching (ADM) objective that aligns the distributions of samples across any timestep along the sampling trajectory. This objective is efficient and recovers model performance. Extensive experiments show that our method achieves a $1.25$-$2.00\times$ speedup while preserving generation quality, and our 4-step distilled model further delivers a $15.92\times$ latency reduction with minimal visual quality drop.  </p>
+    </div>
+</div>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/llmc+.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[LLMC+: Benchmarking Vision-Language Model Compression with a
-Plug-and-play Toolkit](https://www.arxiv.org/pdf/2508.09981) <img src='https://img.shields.io/github/stars/ModelTC/llmc.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
+[LLMC+: Benchmarking Vision-Language Model Compression with a Plug-and-play Toolkit](https://www.arxiv.org/pdf/2508.09981) <img src='https://img.shields.io/github/stars/ModelTC/llmc.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
 
 Chengtao Lv, Bilang Zhang, Yang Yong, Ruihao Gong📧, **Yushi Huang**, Shiqiao Gu, Jiajun Wu, Yumeng Shi, Jinyang Guo, Wenya Wang📧
 
