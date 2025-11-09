@@ -17,18 +17,19 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technology (HKUST), supervised by Prof. [Jun Zhang](https://eejzhang.people.ust.hk/home.html). I received my B.E. degree from Beihang University. I also work as a research intern at SenseTime Research, closely with Dr. [Ruihao Gong](https://xhplus.github.io/). Previously, I have interned at Microsoft Research Asia and SenseTime Research. My research interest focuses on efficient vision and language generative models.
+I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technology (HKUST), supervised by Prof. [Jun Zhang](https://eejzhang.people.ust.hk/home.html). I received my B.E. degree from Beihang University. I also work as a research intern at SenseTime Research, closely with Dr. [Ruihao Gong](https://xhplus.github.io/). Previously, I have interned at Microsoft Research Asia and SenseTime Research. My research interest focuses on **efficient vision and language generative models**.
 
 
 # 🔥 News
+- *2025.06*: &nbsp;🎉🎉 Our SlimInfer and LLMC+ are accepted to AAAI.
 - *2025.06*: &nbsp;🎉🎉 Our Temporal Feature Matters is accepted to TPAMI.
 - *2025.05*: &nbsp;🎉🎉 Our HarmoniCa is accepted to ICML.
 - *2024.10*: &nbsp;🎉🎉 Our LLMC is accepted to EMNLP Industry Track.
 - *2024.07*: &nbsp;🎉🎉 Our PTSBench is accepted to ACM MM.
 - *2024.02*: &nbsp;🎉🎉 Our TFMQ-DM is accepted to CVPR as a Highlight Poster (Top $2.8\\%$). 
 
-# 📝 Publications 
-(\* indicates equal contribution, 📧 indicates corresponding author.)
+# 📝 Selected Publications 
+<span style="color:#6a737d">* indicates equal contribution, 📧 indicates corresponding author</span>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/linvideo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -42,75 +43,6 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
     <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">
         <p> Video diffusion models (DMs) have enabled high-quality video synthesis. However, their computation costs scale quadratically with sequence length because self-attention has quadratic complexity. While linear attention lowers the cost, fully replacing quadratic attention requires expensive pretraining due to the limited expressiveness of linear attention and the complexity of spatiotemporal modeling in video generation. In this paper, we present LinVideo, an efficient data-free post-training framework that replaces a target number of self-attention modules with linear attention while preserving the original model's performance. First, we observe a significant disparity in the replaceability of different layers. Instead of manual or heuristic choices, we frame layer selection as a binary classification problem and propose selective transfer, which automatically and progressively converts layers to linear attention with minimal performance impact. Additionally, to overcome the ineffectiveness and inefficiency of existing objectives for this transfer process, we introduce an anytime distribution matching (ADM) objective that aligns the distributions of samples across any timestep along the sampling trajectory. This objective is efficient and recovers model performance. Extensive experiments show that our method achieves a $1.25$-$2.00\times$ speedup while preserving generation quality, and our 4-step distilled model further delivers a $15.92\times$ latency reduction with minimal visual quality drop.  </p>
-    </div>
-</div>
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/llmc+.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[LLMC+: Benchmarking Vision-Language Model Compression with a Plug-and-play Toolkit](https://www.arxiv.org/pdf/2508.09981) <img src='https://img.shields.io/github/stars/ModelTC/llmc.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
-
-Chengtao Lv, Bilang Zhang, Yang Yong, Ruihao Gong📧, **Yushi Huang**, Shiqiao Gu, Jiajun Wu, Yumeng Shi, Jinyang Guo, Wenya Wang📧
-
-<div style="display: inline">
-    <a href="https://www.arxiv.org/pdf/2508.09981"> <strong>[paper]</strong></a>
-    <a href="https://github.com/ModelTC/lightcompress"> <strong>[code]</strong></a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
-    <div class="abstract"  style="overflow: hidden; display: none;">
-        <p> Large Vision-Language Models (VLMs) exhibit impressive
-        multi-modal capabilities but suffer from prohibitive computational and memory demands, due to their long visual token
-        sequences and massive parameter sizes. To address these issues, recent works have proposed training-free compression
-        methods. However, existing efforts often suffer from three
-        major limitations: (1) Current approaches do not decompose
-        techniques into comparable modules, hindering fair evaluation across spatial and temporal redundancy. (2) Evaluation
-        confined to simple single-turn tasks, failing to reflect performance in realistic scenarios. (3) Isolated use of individual
-        compression techniques, without exploring their joint potential. To overcome these gaps, we introduce LLMC+, a comprehensive VLM compression benchmark with a versatile,
-        plug-and-play toolkit. LLMC+ supports over 20 algorithms
-        across five representative VLM families and enables systematic study of token-level and model-level compression. Our
-        benchmark reveals that: (1) Spatial and temporal redundancies demand distinct technical strategies. (2) Token reduction methods degrade significantly in multi-turn dialogue and
-        detail-sensitive tasks. (3) Combining token and model compression achieves extreme compression with minimal performance loss. We believe LLMC+ will facilitate fair evaluation and inspire future research in efficient VLM.  </p>
-    </div>
-</div>
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/sliminfer.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[SlimInfer: Accelerating Long-Context LLM Inference via Dynamic Token Pruning](https://arxiv.org/pdf/2508.06447)
-
-Lingkun Long, Rubing Yang, **Yushi Huang**, Desheng Hui, Ao Zhou, Jianlei Yang📧
-
-<div style="display: inline">
-    <a href="https://arxiv.org/pdf/2508.06447"> <strong>[paper]</strong></a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
-    <div class="abstract"  style="overflow: hidden; display: none;">
-        <p> Long-context inference for Large Language Models (LLMs) is heavily limited by high computational demands. While several existing methods optimize attention computation, they still process the full set of hidden states at each layer, limiting overall efficiency. In this work, we propose SlimInfer, an innovative framework that aims to accelerate inference by directly pruning less critical prompt tokens during the forward pass. Our key insight is an information diffusion
-        phenomenon: As information from critical tokens propagates through layers, it becomes distributed across the entire sequence. This diffusion process suggests that LLMs can maintain their semantic integrity when excessive tokens, even including these critical ones, are pruned in hidden states. Motivated by this, SlimInfer introduces a dynamic fine-grained pruning mechanism that accurately removes redundant tokens of hidden state at intermediate layers. This layer-wise pruning naturally enables an asynchronous KV cache manager that prefetches required token blocks without complex predictors, reducing both memory usage and I/O costs. Extensive experiments show that SlimInfer can achieve up to $2.53\times$ timeto-first-token (TTFT) speedup and $1.88\times$ end-to-end latency reduction for LLaMA3.1-8B-Instruct on a single RTX 4090,
-        without sacrificing performance on LongBench.  </p>
-    </div>
-</div>
-
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/vlmq.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[VLMQ: Efficient Post-Training Quantization for Large Vision-Language Models via Hessian Augmentation](https://arxiv.org/pdf/2508.03351)
-
-Yufei Xue, **Yushi Huang**, Jiawei Shao, Jun Zhang
-
-<div style="display: inline">
-    <a href="https://arxiv.org/pdf/2508.03351"> <strong>[paper]</strong></a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
-    <div class="abstract"  style="overflow: hidden; display: none;">
-        <p> Post-training quantization (PTQ) has emerged as an effective approach for compressing large models and accelerating their inference without retraining. While PTQ has been extensively studied in the context of large language models (LLMs), its applicability to vision-language models (VLMs) remains underexplored. In this paper, we identify a modality discrepancy (i.e., limited text tokens vs. excessive and redundant vision tokens) of VLMs. However, existing Hessian-based LLM PTQ methods treat all tokens equally during quantization, resulting in severe performance drops when applied to VLMs. Motivated by this observation, we propose a novel importance-aware PTQ framework tailored for VLMs, dubbed VLMQ. Specifically, to address vision token redundancy, VLMQ 1) optimizes an importance-aware objective that yields an enhanced Hessian with token-level importance factors, while retaining compatibility with parallelized weight updates, and 2) ensures efficiency and effectiveness by computing these factors via a single lightweight block-wise backward pass, guided by a theoretical connection to token-level perturbations. Extensive evaluations on 8 benchmarks across 0.5B~32B VLMs demonstrate the state-of-the-art (SOTA) performance of our VLMQ, particularly under low-bit settings. For example, it achieves a substantial $16.45\%$ improvement on MME-RealWorld under 2-bit quantization. </p>
     </div>
 </div>
 
@@ -186,44 +118,6 @@ Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunche
     <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">
         <p> Recent advancements in large language models (LLMs) are propelling us toward artificial general intelligence with their remarkable emergent abilities and reasoning capabilities. However, the substantial computational and memory requirements limit the widespread adoption. Quantization, a key compression technique, can effectively mitigate these demands by compressing and accelerating LLMs, albeit with potential risks to accuracy. Numerous studies have aimed to minimize the accuracy loss associated with quantization. However, their quantization configurations vary from each other and cannot be fairly compared. In this paper, we present LLMC, a plug-and-play compression toolkit, to fairly and systematically explore the impact of quantization. LLMC integrates dozens of algorithms, models, and hardwares, offering high extensibility from integer to floating-point quantization, from LLM to vision-language (VLM) model, from fixed-bit to mixed precision, and from quantization to sparsification. Powered by this versatile toolkit, our benchmark covers three key aspects: calibration data, algorithms (three strategies), and data formats, providing novel insights and detailed analyses for further research and practical guidance for users. </p>
-    </div>
-</div>
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2024</div><img src='images/pts-bench.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[PTSBench: A Comprehensive Post-Training Sparsity Benchmark
-Towards Algorithms and Models](https://arxiv.org/pdf/2412.07268) <img src='https://img.shields.io/github/stars/ModelTC/msbench.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
-
-Zining Wang, Jinyang Guo, Ruihao Gong, Yang Yong, Aishan Liu, **Yushi Huang**, Jiaheng Liu, Xianglong Liu📧
-
-<div style="display: inline">
-    <a href="https://arxiv.org/pdf/2412.07268"> <strong>[paper]</strong></a>
-    <a href="https://github.com/ModelTC/msbench"> <strong>[code]</strong></a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
-    <div class="abstract"  style="overflow: hidden; display: none;">
-        <p> With the increased attention to model efficiency, model sparsity
-technologies have developed rapidly in recent years, among which
-post-training sparsity (PTS) has become more and more prevalent
-because of its effectiveness and efficiency. However, there remain
-questions on better fine-grained PTS algorithms and the sparsification ability of models, which hinders the further development of
-this area. Therefore, a benchmark to comprehensively investigate
-the issues above is urgently needed. In this paper, we propose the
-first comprehensive post-training sparsity benchmark called PTSBench towards PTS algorithms and models. We benchmark $10+$ PTS
-general-pluggable fine-grained algorithms on $3$ typical computer vision tasks using over $40$ off-the-shelf model architectures. Through
-extensive experiments and analyses, we obtain valuable conclusions
-and provide several insights from both PTS fine-grained algorithms
-and model aspects, which can comprehensively address the aforementioned questions. Our PTSBench can provide (1) in-depth and
-comprehensive evaluations for the sparsification abilities of models,
-(2) new observations for a better understanding of the PTS method
-toward algorithms and models, and (3) an upcoming well-structured
-and easy-integrate open-source framework for model sparsification
-ability evaluation. We hope this work will provide illuminating
-conclusions and advice for future studies of post-training sparsity
-methods and sparsification-friendly model design. </p>
     </div>
 </div>
 
