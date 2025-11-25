@@ -267,29 +267,53 @@ h1:before, .anchor:before {
 }
 
 @include breakpoint(max-width $small) {
+    .profile_box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
     .author__urls-wrapper {
+        width: 100%;
+        margin-left: 0;
+        display: block;
         padding: 1rem;
     }
 
     .author__urls.social-icons {
-        flex-direction: column;
-        gap: 0.35rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 0.4rem;
+        width: 100%;
     }
 
     .author__urls.social-icons li {
-        width: 100%;
+        width: auto;
+        flex: 0 0 auto;
     }
 
     .author__urls.social-icons li a {
-        width: 100%;
-        justify-content: center;
-        text-align: center;
+        width: auto;
         padding: 0.45rem 1rem;
         letter-spacing: 0.02em;
         font-size: 0.76rem;
     }
 
-    .author__urls.social-icons li div {
-        width: 100%;
+    .author__urls {
+        position: static;
+        padding: 0;
+        border: 0;
+        box-shadow: none;
+        background: transparent;
+        margin-top: 0.25rem;
+        display: flex !important;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+    }
+
+    .author__urls:before,
+    .author__urls:after {
+        display: none;
     }
 }
