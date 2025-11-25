@@ -266,7 +266,7 @@ h1:before, .anchor:before {
     display: none;
 }
 
-@include breakpoint(max-width $small) {
+@include breakpoint(max-width $medium) {
     .profile_box {
         flex-direction: column;
         align-items: flex-start;
