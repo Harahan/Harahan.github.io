@@ -17,9 +17,10 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technology (HKUST), supervised by Prof. [Jun Zhang](https://eejzhang.people.ust.hk/home.html). I received my B.E. degree from Beihang University. I also work as a research intern at SenseTime Research, closely with Dr. [Ruihao Gong](https://xhplus.github.io/). Previously, I have interned at Microsoft Research Asia and SenseTime Research. My research interest focuses on **efficient vision and language generative models**.
+I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technology (HKUST), supervised by Prof. [Jun Zhang](https://eejzhang.people.ust.hk/home.html). I received my B.E. degree from Beihang University. I also work as a research intern at SenseTime Research, closely with Dr. [Ruihao Gong](https://xhplus.github.io/). Previously, I have interned at Microsoft Research Asia and SenseTime Research. My research interest focuses on *efficient vision and language generative models*.
 
 
+<!-- <span class='anchor' id='-news'></span> -->
 <!-- # News
 <div class="news-list">
   <ul>
@@ -32,6 +33,7 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
   </ul>
 </div> -->
 
+<span class='anchor' id='-publications'></span>
 # Selected Publications 
 <span style="color:#6a737d">* indicates equal contribution, 📧 indicates corresponding author</span>
 
@@ -149,6 +151,7 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 </div>
 
 
+<span class='anchor' id='-projects'></span>
 # Projects
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Toolkit</div><img src='images/llmc.png' alt="LightCompress" width="100%"></div></div>
@@ -164,13 +167,16 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 </div>
 
 
+<span class='anchor' id='-services'></span>
 # Services
 - Conference Reviews: NeurIPS, ICLR, ICML, COLM, AAAI, CVPR.
 
+<span class='anchor' id='-educations'></span>
 # Educations
 - *2025.02 - Now*, Ph.D. in Electronic Computer and Engineering, the Hong Kong University of Science and Technology.
 - *2020.09 - 2024.06*, B.Eng. in Computer Science and Engineering, Shenyuan Honors College, Beihang University.
 
+<span class='anchor' id='-internships'></span>
 # Internships
 - *2025.02 - Now*, SenseTime Research.
 - *2024.12 - 2025.02*, Microsoft Research Asia.
