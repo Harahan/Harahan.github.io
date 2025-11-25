@@ -265,3 +265,31 @@ h1:before, .anchor:before {
 .author__urls_sm {
     display: none;
 }
+
+@include breakpoint(max-width $small) {
+    .author__urls-wrapper {
+        padding: 1rem;
+    }
+
+    .author__urls.social-icons {
+        flex-direction: column;
+        gap: 0.35rem;
+    }
+
+    .author__urls.social-icons li {
+        width: 100%;
+    }
+
+    .author__urls.social-icons li a {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        padding: 0.45rem 1rem;
+        letter-spacing: 0.02em;
+        font-size: 0.76rem;
+    }
+
+    .author__urls.social-icons li div {
+        width: 100%;
+    }
+}
