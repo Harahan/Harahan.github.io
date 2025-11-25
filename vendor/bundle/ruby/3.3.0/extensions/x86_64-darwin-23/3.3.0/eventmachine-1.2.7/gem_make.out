@@ -1,0 +1,19 @@
+current directory: /Users/harahan/Desktop/wksp/homepage/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/usr/local/opt/ruby@3.3/bin/ruby extconf.rb --with-openssl-dir\=/opt/homebrew/opt/openssl@3
+creating Makefile
+
+current directory: /Users/harahan/Desktop/wksp/homepage/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20251126-19726-uz0vzu sitelibdir\=./.gem.20251126-19726-uz0vzu clean
+
+current directory: /Users/harahan/Desktop/wksp/homepage/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20251126-19726-uz0vzu sitelibdir\=./.gem.20251126-19726-uz0vzu
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Users/harahan/Desktop/wksp/homepage/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20251126-19726-uz0vzu sitelibdir\=./.gem.20251126-19726-uz0vzu install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20251126-19726-uz0vzu
+
+current directory: /Users/harahan/Desktop/wksp/homepage/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20251126-19726-uz0vzu sitelibdir\=./.gem.20251126-19726-uz0vzu clean
