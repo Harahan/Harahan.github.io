@@ -49,6 +49,17 @@
 }
 
 .page__content {
+  background: #fff;
+  padding: clamp(1.5rem, 3vw, 3rem);
+  border-radius: 18px;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  box-shadow: 0 35px 60px rgba(15, 23, 42, 0.07);
+  margin-bottom: 3rem;
+
+  @include breakpoint(max-width $small) {
+    padding: 1.5rem;
+  }
+
   #about-me{
     margin-top: -10em;
       &:before { 
@@ -61,9 +72,19 @@
     }
   }
   h1 {
-    margin-top: 1em;
+    margin-top: 1.25em;
     padding-bottom: 0.5em;
-    border-bottom: 1px solid $border-color;
+    border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: #1f2435;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    margin-top: 2em;
+    color: #2f3b52;
+    letter-spacing: 0.02em;
   }
 
   p, li, dl {
@@ -73,6 +94,7 @@
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;
+    text-align: justify;
 
     /* sibling indentation*/
     @if $paragraph-indent == true {
@@ -84,10 +106,11 @@
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
+    color: $link-color;
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
