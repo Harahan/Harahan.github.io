@@ -56,7 +56,7 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/linvideo.png' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/linvideo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [LinVideo: A Post-Training Framework towards $\mathcal{O}(n)$ Attention in Efficient Video Generation](https://arxiv.org/pdf/2510.08318)
@@ -72,7 +72,7 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 </div>
 
 </div>
-</div>
+</div> -->
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/qvgen.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
