@@ -33,9 +33,23 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
   </ul>
 </div> -->
 
+<span class='anchor' id='-news'></span>
+# News
+
+<div class="news-box" markdown="1">
+- *2025.11*: &nbsp;🎉🎉 Our SlimInfer and LLMC+ are accepted to AAAI.
+- *2025.06*: &nbsp;🎉🎉 Our Temporal Feature Matters is accepted to TPAMI.
+- *2025.05*: &nbsp;🎉🎉 Our HarmoniCa is accepted to ICML.
+- *2024.10*: &nbsp;🎉🎉 Our LLMC is accepted to EMNLP Industry Track.
+- *2024.07*: &nbsp;🎉🎉 Our PTSBench is accepted to ACM MM.
+- *2024.02*: &nbsp;🎉🎉 Our TFMQ-DM is accepted to CVPR as a Highlight Poster (Top $2.8\%$).
+</div>
+
 <span class='anchor' id='-publications'></span>
-# Selected Publications 
-<span style="color:#6a737d">* indicates equal contribution, 📧 indicates corresponding author</span>
+# Selected Papers
+<span style="color:#6a737d">Includes preprints; * indicates equal contribution, 📧 indicates corresponding author</span>
+
+<div class="pub-grid-2">
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/modes.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -56,7 +70,7 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 </div>
 </div>
 
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/linvideo.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/linvideo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [LinVideo: A Post-Training Framework towards $\mathcal{O}(n)$ Attention in Efficient Video Generation](https://arxiv.org/pdf/2510.08318)
@@ -72,7 +86,7 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 </div>
 
 </div>
-</div> -->
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/qvgen.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -95,7 +109,7 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2025</div><img src='images/temporal-feature-matters.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Temporal Feature Matters: A Framework for Diffusion Model Quantization](https://arxiv.org/pdf/2407.19547) <img src='https://img.shields.io/github/stars/ModelTC/TFMQ-DM.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
+[Temporal Feature Matters: A Framework for Diffusion Model Quantization](https://arxiv.org/pdf/2407.19547)
 
 **Yushi Huang**, Ruihao Gong, Xianglong Liu📧, Jing Liu, Yuhang Li, Jiwen Lu, Dacheng Tao
 
@@ -114,7 +128,7 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/harmonica.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[HarmoniCa: Harmonizing Training and Inference for Better Feature Caching in Diffusion Transformer Acceleration](https://arxiv.org/pdf/2410.01723) <img src='https://img.shields.io/github/stars/ModelTC/HarmoniCa.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
+[HarmoniCa: Harmonizing Training and Inference for Better Feature Caching in Diffusion Transformer Acceleration](https://arxiv.org/pdf/2410.01723)
 
 **Yushi Huang\***, Zining Wang\*, Ruihao Gong📧, Jing Liu, Xinjie Zhang, Jinyang Guo, Xianglong Liu, Jun Zhang📧
 
@@ -130,10 +144,30 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2024 Industry Track</div><img src='images/llmc.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[LLMC: Benchmarking Large Language Model Quantization with a Versatile Compression Toolkit](https://arxiv.org/pdf/2405.06001)
+
+Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunchen Zhang, Dacheng Tao, Xianglong Liu📧
+
+<div style="display: inline">
+    <a class="resource-link" href="https://arxiv.org/pdf/2405.06001">Paper</a>
+    <a class="resource-link" href="https://github.com/ModelTC/llmc">Code</a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()">Abstract</a>
+    <div class="abstract"  style="overflow: hidden; display: none;">
+        <p> Recent advancements in large language models (LLMs) are propelling us toward artificial general intelligence with their remarkable emergent abilities and reasoning capabilities. However, the substantial computational and memory requirements limit the widespread adoption. Quantization, a key compression technique, can effectively mitigate these demands by compressing and accelerating LLMs, albeit with potential risks to accuracy. Numerous studies have aimed to minimize the accuracy loss associated with quantization. However, their quantization configurations vary from each other and cannot be fairly compared. In this paper, we present LLMC, a plug-and-play compression toolkit, to fairly and systematically explore the impact of quantization. LLMC integrates dozens of algorithms, models, and hardwares, offering high extensibility from integer to floating-point quantization, from LLM to vision-language (VLM) model, from fixed-bit to mixed precision, and from quantization to sparsification. Powered by this versatile toolkit, our benchmark covers three key aspects: calibration data, algorithms (three strategies), and data formats, providing novel insights and detailed analyses for further research and practical guidance for users. </p>
+    </div>
+</div>
+
+</div>
+
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024 Highlight</div><img src='images/tfmq-dm.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[TFMQ-DM: Temporal Feature Maintenance Quantization for Diffusion Models](https://arxiv.org/pdf/2311.16503) <img src='https://img.shields.io/github/stars/ModelTC/TFMQ-DM.svg?style=social&label=Star&maxAge=60' alt="sym" height="100%">
+[TFMQ-DM: Temporal Feature Maintenance Quantization for Diffusion Models](https://arxiv.org/pdf/2311.16503)
 
 **Yushi Huang\***, Ruihao Gong\*, Jing Liu, Tianlong Chen, Xianglong Liu📧
 
@@ -150,6 +184,7 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 </div>
 </div>
 
+</div>
 
 <span class='anchor' id='-projects'></span>
 # Projects
@@ -157,7 +192,7 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Toolkit</div><img src='images/llmc.png' alt="LightCompress" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[LightCompress](https://github.com/ModelTC/LightCompress) is an off-the-shelf compression suite for AIGC models (LLMs, VLMs, diffusion, etc.) that packages SOTA quantization, sparsification, and deployment best practices to shrink models while preserving accuracy.
+[LightCompress](https://github.com/ModelTC/LightCompress) LightCompress is an off-the-shelf compression suite for AIGC models (LLMs, VLMs, diffusion, etc.) that packages SOTA quantization, sparsification, and deployment best practices to shrink models while preserving accuracy. **600+ GitHub Stars.**
 
 <div style="display: inline">
     <a class="resource-link" href="https://github.com/ModelTC/LightCompress">GitHub</a>
@@ -181,3 +216,4 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 - *2025.02 - Now*, SenseTime Research.
 - *2024.12 - 2025.02*, Microsoft Research Asia.
 - *2023.05 - 2024.12*, SenseTime Research.
+
