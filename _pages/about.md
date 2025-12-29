@@ -189,7 +189,7 @@ Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunche
 <span class='anchor' id='-projects'></span>
 # Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Toolkit</div><img src='images/llmc.png' alt="LightCompress" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Toolkit</div><img src='images/llmc_tool.png' alt="LightCompress" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [LightCompress](https://github.com/ModelTC/LightCompress) LightCompress is an off-the-shelf compression suite for AIGC models (LLMs, VLMs, diffusion, etc.) that packages SOTA quantization, sparsification, and deployment best practices to shrink models while preserving accuracy. **600+ GitHub Stars.**
