@@ -61,11 +61,6 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 
 <div style="display: inline">
     <a class="resource-link" href="https://arxiv.org/pdf/2511.15690">Paper</a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()">Abstract</a>
-    <div class="abstract"  style="overflow: hidden; display: none;">
-        <p> Mixture-of-Experts (MoE) Multimodal large language models (MLLMs) excel at vision–language tasks, but they suffer from high computational inefficiency. To reduce inference overhead, expert skipping methods have been proposed to deactivate redundant experts based on the current input tokens. However, we find that applying these methods—originally designed for unimodal large language models (LLMs)—to MLLMs results in considerable performance degradation. This is primarily because such methods fail to account for the heterogeneous contributions of experts across MoE layers and modality-specific behaviors of tokens within these layers. Motivated by these findings, we propose MoDES, the first training-free framework that adaptively skips experts to enable efficient and accurate MoE MLLM inference. It incorporates a globally-modulated local gating (GMLG) mechanism that integrates global layer-wise importance into local routing probabilities to accurately estimate per-token expert importance. A dual-modality thresholding (DMT) method is then applied, which processes tokens from each modality separately, to derive the skipping schedule. To set the optimal thresholds, we introduce a frontier search algorithm that exploits monotonicity properties, cutting convergence time from several days to a few hours. Extensive experiments for 3 model series across 13 benchmarks demonstrate that MoDES far outperforms previous approaches. For instance, when skipping $88\%$ experts for Qwen3-VL-MoE-30B-A3B-Instruct, the performance boost is up to $10.67\%$ ($97.33\%$ vs. $86.66\%$). Furthermore, MoDES significantly enhances inference speed, improving the prefilling time by $2.16\times$
-        and the decoding time by $1.26\times$.  </p>
-    </div>
 </div>
 
 </div>
@@ -80,10 +75,6 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 
 <div style="display: inline">
     <a class="resource-link" href="https://arxiv.org/pdf/2510.08318">Paper</a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()">Abstract</a>
-    <div class="abstract"  style="overflow: hidden; display: none;">
-        <p> Video diffusion models (DMs) have enabled high-quality video synthesis. However, their computation costs scale quadratically with sequence length because self-attention has quadratic complexity. While linear attention lowers the cost, fully replacing quadratic attention requires expensive pretraining due to the limited expressiveness of linear attention and the complexity of spatiotemporal modeling in video generation. In this paper, we present LinVideo, an efficient data-free post-training framework that replaces a target number of self-attention modules with linear attention while preserving the original model's performance. First, we observe a significant disparity in the replaceability of different layers. Instead of manual or heuristic choices, we frame layer selection as a binary classification problem and propose selective transfer, which automatically and progressively converts layers to linear attention with minimal performance impact. Additionally, to overcome the ineffectiveness and inefficiency of existing objectives for this transfer process, we introduce an anytime distribution matching (ADM) objective that aligns the distributions of samples across any timestep along the sampling trajectory. This objective is efficient and recovers model performance. Extensive experiments show that our method achieves a $1.25$-$2.00\times$ speedup while preserving generation quality, and our 4-step distilled model further delivers a $15.92\times$ latency reduction with minimal visual quality drop.  </p>
-    </div>
 </div>
 
 </div>
@@ -98,10 +89,6 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 
 <div style="display: inline">
     <a class="resource-link" href="https://arxiv.org/pdf/2505.11497">Paper</a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()">Abstract</a>
-    <div class="abstract"  style="overflow: hidden; display: none;">
-        <p> Video diffusion models (DMs) have enabled high-quality video synthesis. Yet, their substantial computational and memory demands pose serious challenges to real-world deployment, even on high-end GPUs. As a commonly adopted solution, quantization has proven notable success in reducing cost for image DMs, while its direct application to video DMs remains ineffective. In this paper, we present QVGen, a novel quantization-aware training (QAT) framework tailored for high-performance and inference-efficient video DMs under extremely low-bit quantization (e.g., 4-bit or below). We begin with a theoretical analysis demonstrating that reducing the gradient norm is essential to facilitate convergence for QAT. To this end, we introduce auxiliary modules ($\Phi$) to mitigate large quantization errors, leading to significantly enhanced convergence. To eliminate the inference overhead of $\Phi$, we propose a rank-decay strategy that progressively eliminates $\Phi$. Specifically, we repeatedly employ singular value decomposition (SVD) and a proposed rank-based regularization $\gamma$ to identify and decay low-contributing components. This strategy retains performance while zeroing out inference overhead. Extensive experiments across $4$ state-of-the-art (SOTA) video DMs, with parameter sizes ranging from $1.3$B$\sim14$B, show that QVGen is the first to reach full-precision comparable quality under 4-bit settings. Moreover, it significantly outperforms existing methods. For instance, our 3-bit CogVideoX-2B achieves improvements of $+25.28$ in Dynamic Degree and $+8.43$ in Scene Consistency on VBench. </p>
-    </div>
 </div>
 
 </div>
@@ -117,10 +104,6 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 <div style="display: inline">
     <a class="resource-link" href="https://arxiv.org/pdf/2407.19547">Paper</a>
     <a class="resource-link" href="https://github.com/ModelTC/TFMQ-DM">Code</a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()">Abstract</a>
-    <div class="abstract"  style="overflow: hidden; display: none;">
-        <p> The Diffusion models, widely used for image generation, face significant challenges related to their broad applicability due to prolonged inference times and high memory demands. Efficient Post-Training Quantization (PTQ) is crucial to address these issues. However, unlike traditional models, diffusion models critically rely on the time-step for the multi-round denoising. Typically, each timestep is encoded into a hypersensitive temporal feature by several modules. Despite this, existing PTQ methods do not optimize these modules individually. Instead, they employ unsuitable reconstruction objectives and complex calibration methods, leading to significant disturbances in the temporal feature and denoising trajectory, as well as reduced compression efficiency. To address these challenges, we introduce a novel quantization framework that includes three strategies: 1) TIB-based Maintenance: Based on our innovative Temporal Information Block (TIB) definition, Temporal Information-aware Reconstruction (TIAR) and Finite Set Calibration (FSC) are developed to efficiently align original temporal features. 2) Cache-based Maintenance: Instead of indirect and complex optimization for the related modules, pre-computing and caching quantized counterparts of temporal features are developed to minimize errors. 3) Disturbance-aware Selection: Employ temporal feature errors to guide a fine-grained selection between the two maintenance strategies for further disturbance reduction. This framework preserves most of the temporal information and ensures high-quality end-to-end generation. Extensive testing on various datasets, diffusion models, and hardware confirms our superior performance and acceleration. </p>
-    </div>
 </div>
 
 </div>
@@ -136,10 +119,6 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 <div style="display: inline">
     <a class="resource-link" href="https://arxiv.org/pdf/2410.01723">Paper</a>
   <a class="resource-link" href="https://github.com/ModelTC/HarmoniCa">Code</a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()">Abstract</a>
-    <div class="abstract"  style="overflow: hidden; display: none;">
-        <p> Diffusion Transformers (DiTs) excel in generative tasks but face practical deployment challenges due to high inference costs. Feature caching, which stores and retrieves redundant computations, offers the potential for acceleration. Existing learning-based caching, though adaptive, overlooks the impact of the prior timestep. It also suffers from misaligned objectives-aligned predicted noise vs. high-quality images-between training and inference. These two discrepancies compromise both performance and efficiency. To this end, we harmonize training and inference with a novel learning-based caching framework dubbed HarmoniCa. It first incorporates Step-Wise Denoising Training (SDT) to ensure the continuity of the denoising process, where prior steps can be leveraged. In addition, an Image Error Proxy-Guided Objective (IEPO) is applied to balance image quality against cache utilization through an efficient proxy to approximate the image error. Extensive experiments across $8$ models, $4$ samplers, and resolutions from $256\times256$ to $2K$ demonstrate superior performance and speedup of our framework. For instance, it achieves over $40\%$ latency reduction (i.e., $2.07\times$ theoretical speedup) and improved performance on PixArt-$\alpha$. Remarkably, our image-free approach reduces training time by $25\%$ compared with the previous method. </p>
-    </div>
 </div>
 
 </div>
@@ -155,10 +134,6 @@ Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunche
 <div style="display: inline">
     <a class="resource-link" href="https://arxiv.org/pdf/2405.06001">Paper</a>
     <a class="resource-link" href="https://github.com/ModelTC/llmc">Code</a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()">Abstract</a>
-    <div class="abstract"  style="overflow: hidden; display: none;">
-        <p> Recent advancements in large language models (LLMs) are propelling us toward artificial general intelligence with their remarkable emergent abilities and reasoning capabilities. However, the substantial computational and memory requirements limit the widespread adoption. Quantization, a key compression technique, can effectively mitigate these demands by compressing and accelerating LLMs, albeit with potential risks to accuracy. Numerous studies have aimed to minimize the accuracy loss associated with quantization. However, their quantization configurations vary from each other and cannot be fairly compared. In this paper, we present LLMC, a plug-and-play compression toolkit, to fairly and systematically explore the impact of quantization. LLMC integrates dozens of algorithms, models, and hardwares, offering high extensibility from integer to floating-point quantization, from LLM to vision-language (VLM) model, from fixed-bit to mixed precision, and from quantization to sparsification. Powered by this versatile toolkit, our benchmark covers three key aspects: calibration data, algorithms (three strategies), and data formats, providing novel insights and detailed analyses for further research and practical guidance for users. </p>
-    </div>
 </div>
 
 </div>
@@ -175,10 +150,6 @@ Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunche
 <div style="display: inline">
     <a class="resource-link" href="https://arxiv.org/pdf/2311.16503">Paper</a>
     <a class="resource-link" href="https://github.com/ModelTC/TFMQ-DM">Code</a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()">Abstract</a>
-    <div class="abstract"  style="overflow: hidden; display: none;">
-        <p> The Diffusion model, a prevalent framework for image generation, encounters significant challenges in terms of broad applicability due to its extended inference times and substantial memory requirements. Efficient Post-training Quantization (PTQ) is pivotal for addressing these issues in traditional models. Different from traditional models, diffusion models heavily depend on the time-step $t$ to achieve satisfactory multi-round denoising. Usually, $t$ from the finite set $\{1, \ldots, T\}$ is encoded to a temporal feature by a few modules totally irrespective of the sampling data. However, existing PTQ methods do not optimize these modules separately. They adopt inappropriate reconstruction targets and complex calibration methods, resulting in a severe disturbance of the temporal feature and denoising trajectory, as well as a low compression efficiency. To solve these, we propose a Temporal Feature Maintenance Quantization (TFMQ) framework building upon a Temporal Information Block which is just related to the time-step $t$ and unrelated to the sampling data. Powered by the pioneering block design, we devise temporal information aware reconstruction (TIAR) and finite set calibration (FSC) to align the full-precision temporal features in a limited time. Equipped with the framework, we can maintain the most temporal information and ensure the end-to-end generation quality. Extensive experiments on various datasets and diffusion models prove our state-of-the-art results. Remarkably, our quantization approach, for the first time, achieves model performance nearly on par with the full-precision model under 4-bit weight quantization. Additionally, our method incurs almost no extra computational cost and accelerates quantization time by $2.0\times$ on LSUN-Bedrooms $256\times 256$ compared to previous works.  </p>
-    </div>
     <!-- <a class="resource-link" href="https://modeltc.github.io/TFMQ-DM/">Project Page</a> -->
 </div>
 
