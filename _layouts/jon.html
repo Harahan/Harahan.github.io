@@ -1,0 +1,79 @@
+---
+layout: compress
+---
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>{{ site.author.name | default: site.title }}</title>
+    <meta name="author" content="{{ site.author.name | escape }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="/jon-extra.css">
+
+    <!-- MathJax (restore LaTeX rendering used by the previous Jekyll theme) -->
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } });
+    </script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+          processEscapes: true
+        }
+      });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML" async></script>
+  </head>
+
+  <body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name" style="text-align: center;">
+                  {{ site.author.name }}
+                </p>
+                {% if site.author.bio %}
+                <p style="text-align:center">
+                  {{ site.author.bio }}
+                </p>
+                {% endif %}
+                <p style="text-align:center">
+                  {% if site.author.email %}<a href="mailto:{{ site.author.email }}">Email</a>{% endif %}
+                  {% if site.author.email %} &nbsp;/&nbsp; {% endif %}
+                  <a href="/images/Resume.pdf">CV</a> &nbsp;/&nbsp;
+                  {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}">Scholar</a> &nbsp;/&nbsp;{% endif %}
+                  {% if site.author.twitter %}<a href="https://twitter.com/{{ site.author.twitter }}">Twitter</a> &nbsp;/&nbsp;{% endif %}
+                  {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}">Github</a>{% endif %}
+                </p>
+              </td>
+              <td style="padding:2.5%;width:37%;max-width:37%">
+                {% if site.author.avatar %}
+                <a href="/{{ site.author.avatar }}"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="/{{ site.author.avatar }}"></a>
+                {% endif %}
+              </td>
+            </tr>
+          </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                {{ content }}
+              </td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+    </tbody></table>
+
+    <!-- Support existing abstract toggle behavior in about.md -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </body>
+</html>
+
+
