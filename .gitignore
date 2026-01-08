@@ -1,3 +1,5 @@
 _site/
 push.sh
 .DS_Store
+.cursor/
+_template_jonbarron/

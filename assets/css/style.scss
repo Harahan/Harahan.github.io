@@ -1,0 +1,9 @@
+---
+---
+/* This file intentionally overrides the default GitHub Pages theme asset
+ * `assets/css/style.scss` (from `jekyll-theme-primer`) to avoid encoding
+ * issues during CI/Jekyll builds. We don't rely on the theme CSS because
+ * the site uses `stylesheet.css` + `jon-extra.css`.
+ */
+
+
