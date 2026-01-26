@@ -38,6 +38,7 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 # News
 
 <div class="news-box" markdown="1">
+- *2026.01*: &nbsp;🎉🎉 Our QVGen is accepted to ICLR.
 - *2025.11*: &nbsp;🎉🎉 Our SlimInfer and LLMC+ are accepted to AAAI.
 - *2025.06*: &nbsp;🎉🎉 Our Temporal Feature Matters is accepted to TPAMI.
 - *2025.05*: &nbsp;🎉🎉 Our HarmoniCa is accepted to ICML.
@@ -80,7 +81,7 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 </div>
 </div> -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/qvgen.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/qvgen.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [QVGen: Pushing the Limit of Quantized Video Generative Models](https://arxiv.org/pdf/2505.11497)
@@ -89,6 +90,7 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 
 <div style="display: inline">
     <a class="resource-link" href="https://arxiv.org/pdf/2505.11497">Paper</a>
+    <a class="resource-link" href="https://github.com/ModelTC/QVGen">Code</a>
 </div>
 
 </div>
