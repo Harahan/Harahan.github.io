@@ -178,7 +178,7 @@ Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunche
 
 <span class='anchor' id='-services'></span>
 # Services
-- Conference Reviews: NeurIPS, ICLR, ICML, COLM, AAAI, CVPR.
+- Conference Reviews: NeurIPS, ICLR, ICML, COLM, AAAI, CVPR, ECCV.
 
 <span class='anchor' id='-educations'></span>
 # Educations
