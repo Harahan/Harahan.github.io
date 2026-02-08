@@ -18,7 +18,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technology (HKUST), supervised by Prof. [Jun Zhang](https://eejzhang.people.ust.hk/home.html). I received my B.E. degree from Beihang University. I also work as a research intern at SenseTime Research, closely with Dr. [Ruihao Gong](https://xhplus.github.io/). Previously, I have interned at Microsoft Research Asia and SenseTime Research. My research interest focuses on *efficient vision and language generative models*.
+I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUST), supervised by Prof. [Jun Zhang](https://eejzhang.people.ust.hk/home.html). I received my B.E. degree from Beihang University. Currently, I am interested in multimodal reinforcement learning (*e.g.*, VLMs and diffusion models). Moreover, I also focus on *efficient vision and language generative models*.
 
 
 <!-- <span class='anchor' id='-news'></span> -->
@@ -67,7 +67,7 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 </div>
 </div>
 
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/linvideo.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/linvideo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [LinVideo: A Post-Training Framework towards $\mathcal{O}(n)$ Attention in Efficient Video Generation](https://arxiv.org/pdf/2510.08318)
@@ -79,7 +79,7 @@ I am a 1st-year Ph.D. student at the Hong Kong University of Science and Technol
 </div>
 
 </div>
-</div> -->
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/qvgen.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -188,6 +188,7 @@ Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunche
 <span class='anchor' id='-internships'></span>
 # Internships
 - *2025.02 - Now*, SenseTime Research.
+- *2025.09-2025.11*, Bytedance | Seed
 - *2024.12 - 2025.02*, Microsoft Research Asia.
 - *2023.05 - 2024.12*, SenseTime Research.
 
