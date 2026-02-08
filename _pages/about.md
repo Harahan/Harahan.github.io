@@ -18,7 +18,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUST), supervised by Prof. [Jun Zhang](https://eejzhang.people.ust.hk/home.html). I received my B.E. degree from Beihang University. Currently, I am interested in multimodal reinforcement learning (*e.g.*, VLMs and diffusion models). Moreover, I also focus on *efficient vision and language generative models*.
+I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUST), supervised by Prof. [Jun Zhang](https://eejzhang.people.ust.hk/home.html). I received my B.E. degree from Beihang University. Currently, I am interested in multimodal reinforcement learning (*e.g.*, VLMs and diffusion models). Moreover, I focus on efficient training and inference for vision and language generative models.
 
 
 <!-- <span class='anchor' id='-news'></span> -->
@@ -187,7 +187,7 @@ Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunche
 
 <span class='anchor' id='-internships'></span>
 # Internships
-- *2025.09-2025.11*, Bytedance | Seed
+- *2025.09-2025.11*, Bytedance Seed
 - *2024.12 - 2025.02*, Microsoft Research Asia.
 - *2023.05 - Now*, SenseTime Research.
 
