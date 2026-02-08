@@ -187,8 +187,7 @@ Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunche
 
 <span class='anchor' id='-internships'></span>
 # Internships
-- *2025.02 - Now*, SenseTime Research.
 - *2025.09-2025.11*, Bytedance | Seed
 - *2024.12 - 2025.02*, Microsoft Research Asia.
-- *2023.05 - 2024.12*, SenseTime Research.
+- *2023.05 - Now*, SenseTime Research.
 
