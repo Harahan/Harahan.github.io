@@ -139,9 +139,9 @@ Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunche
 </div>
 
 </div>
-</div>
+</div> -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024 Highlight</div><img src='images/tfmq-dm.png' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024 Highlight</div><img src='images/tfmq-dm.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [TFMQ-DM: Temporal Feature Maintenance Quantization for Diffusion Models](https://arxiv.org/pdf/2311.16503)
@@ -151,7 +151,7 @@ Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunche
 <div style="display: inline">
     <a class="resource-link" href="https://arxiv.org/pdf/2311.16503">Paper</a>
     <a class="resource-link" href="https://github.com/ModelTC/TFMQ-DM">Code</a>
-    <!-- <a class="resource-link" href="https://modeltc.github.io/TFMQ-DM/">Project Page</a> -->
+    <a class="resource-link" href="https://modeltc.github.io/TFMQ-DM/">Project Page</a>
 </div>
 
 </div>
