@@ -96,7 +96,7 @@ I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUS
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2025</div><img src='images/temporal-feature-matters.png' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2025</div><img src='images/temporal-feature-matters.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Temporal Feature Matters: A Framework for Diffusion Model Quantization](https://arxiv.org/pdf/2407.19547)
@@ -109,7 +109,7 @@ I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUS
 </div>
 
 </div>
-</div>
+</div> -->
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/harmonica.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -126,7 +126,7 @@ I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUS
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2024 Industry Track</div><img src='images/llmc.png' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2024 Industry Track</div><img src='images/llmc.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [LLMC: Benchmarking Large Language Model Quantization with a Versatile Compression Toolkit](https://arxiv.org/pdf/2405.06001)
@@ -139,7 +139,6 @@ Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunche
 </div>
 
 </div>
-
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024 Highlight</div><img src='images/tfmq-dm.png' alt="sym" width="100%"></div></div>
@@ -156,7 +155,7 @@ Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunche
 </div>
 
 </div>
-</div>
+</div> -->
 
 </div>
 
