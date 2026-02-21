@@ -38,6 +38,7 @@ I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUS
 # News
 
 <div class="news-box" markdown="1">
+- *2026.02*: &nbsp;🎉🎉 Our MoDES and LinVideo are accepted to CVPR.
 - *2026.01*: &nbsp;🎉🎉 Our QVGen is accepted to ICLR.
 - *2025.11*: &nbsp;🎉🎉 Our SlimInfer and LLMC+ are accepted to AAAI.
 - *2025.06*: &nbsp;🎉🎉 Our Temporal Feature Matters is accepted to TPAMI.
@@ -53,7 +54,7 @@ I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUS
 
 <div class="pub-grid-2">
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/modes.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/modes.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MoDES: Accelerating Mixture-of-Experts Multimodal Large Language Models via Dynamic Expert Skipping](https://arxiv.org/pdf/2511.15690)
@@ -62,12 +63,13 @@ I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUS
 
 <div style="display: inline">
     <a class="resource-link" href="https://arxiv.org/pdf/2511.15690">Paper</a>
+    <a class="resource-link" href="https://github.com/ModelTC/MoDES">Code</a>
 </div>
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/linvideo.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/linvideo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [LinVideo: A Post-Training Framework towards $\mathcal{O}(n)$ Attention in Efficient Video Generation](https://arxiv.org/pdf/2510.08318)
