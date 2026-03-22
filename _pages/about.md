@@ -18,7 +18,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUST), supervised by Prof. [Jun Zhang](https://eejzhang.people.ust.hk/home.html). I received my B.E. degree from Beihang University. Currently, I am interested in multimodal reinforcement learning (*e.g.*, VLMs and diffusion models). Moreover, I focus on efficient training and inference for vision and language generative models.
+I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUST), supervised by Prof. [Jun Zhang](https://eejzhang.people.ust.hk/home.html). I received my B.E. degree from Beihang University. Currently, I am interested in reinforcement learning for image/video generation and world models. Moreover, I focus on efficient training and inference for vision and language generative models.
 
 
 <!-- <span class='anchor' id='-news'></span> -->
