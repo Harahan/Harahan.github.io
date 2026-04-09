@@ -38,6 +38,7 @@ I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUS
 # News
 
 <div class="news-box" markdown="1">
+- *2026.04*: &nbsp;🎉🎉 Our LinVideo is selected as a Highlight Poster.
 - *2026.04*: &nbsp;🎉🎉 Our Focus-dLLM is accepted to ACL (Main).
 - *2026.02*: &nbsp;🎉🎉 Our MoDES and LinVideo are accepted to CVPR.
 - *2026.01*: &nbsp;🎉🎉 Our QVGen is accepted to ICLR.
@@ -46,7 +47,7 @@ I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUS
 - *2025.05*: &nbsp;🎉🎉 Our HarmoniCa is accepted to ICML.
 - *2024.10*: &nbsp;🎉🎉 Our LLMC is accepted to EMNLP Industry Track.
 - *2024.07*: &nbsp;🎉🎉 Our PTSBench is accepted to ACM MM.
-- *2024.02*: &nbsp;🎉🎉 Our TFMQ-DM is accepted to CVPR as a Highlight Poster (Top $2.8\%$).
+- *2024.02*: &nbsp;🎉🎉 Our TFMQ-DM is accepted to CVPR as a Highlight Poster.
 </div>
 
 <span class='anchor' id='-publications'></span>
@@ -70,7 +71,7 @@ I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUS
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/linvideo.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Highlight</div><img src='images/linvideo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [LinVideo: A Post-Training Framework towards $\mathcal{O}(n)$ Attention in Efficient Video Generation](https://arxiv.org/pdf/2510.08318)
