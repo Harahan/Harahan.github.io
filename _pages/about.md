@@ -38,6 +38,7 @@ I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUS
 # News
 
 <div class="news-box" markdown="1">
+- *2026.05*: &nbsp;🎉🎉 Our Light Forcing, SGMD, Flash-VAED are accepted to ICML.
 - *2026.04*: &nbsp;🎉🎉 Our LinVideo is selected as a Highlight Poster.
 - *2026.04*: &nbsp;🎉🎉 Our Focus-dLLM is accepted to ACL (Main).
 - *2026.02*: &nbsp;🎉🎉 Our MoDES and LinVideo are accepted to CVPR.
