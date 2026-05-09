@@ -18,7 +18,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUST), supervised by Prof. [Jun Zhang](https://eejzhang.people.ust.hk/home.html). I received my B.E. degree from Beihang University. Currently, I am interested in reinforcement learning for image/video generation and world models. Moreover, I focus on efficient training and inference for vision and language generative models.
+I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUST), supervised by Prof. [Jun Zhang](https://eejzhang.people.ust.hk/home.html). I received my B.E. degree from Beihang University. My research interest is building efficient and high-performing generative systems. I currently work on RL for efficient image/video generation. Previously, I worked on improving inference efficiency for vision and language generative models, including low-precision inference, computation skipping, efficient attention, etc.
 
 
 <!-- <span class='anchor' id='-news'></span> -->
@@ -38,7 +38,7 @@ I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUS
 # News
 
 <div class="news-box" markdown="1">
-- *2026.05*: &nbsp;🎉🎉 Our Light Forcing, SGMD, Flash-VAED are accepted to ICML.
+- *2026.05*: &nbsp;🎉🎉 Our Light Forcing, SGMD, and Flash-VAED are accepted to ICML.
 - *2026.04*: &nbsp;🎉🎉 Our LinVideo is selected as a Highlight Poster.
 - *2026.04*: &nbsp;🎉🎉 Our Focus-dLLM is accepted to ACL (Main).
 - *2026.02*: &nbsp;🎉🎉 Our MoDES and LinVideo are accepted to CVPR.
