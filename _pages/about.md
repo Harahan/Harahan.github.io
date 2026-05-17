@@ -57,10 +57,17 @@ I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUS
 
 <div class="pub-grid-2">
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/modes.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/rtdmd.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[MoDES: Accelerating Mixture-of-Experts Multimodal Large Language Models via Dynamic Expert Skipping](https://arxiv.org/pdf/2511.15690)
+**Reinforcing Few-step Generators via Reward-Tilted Distribution Matching**
+
+**Yushi Huang\***, Xiangxin Zhou\*, Ruoyu Wang\*, Chi Zhang, Jun Zhang, Tianyu Pang📧
+
+</div>
+</div>
+
+<!-- [MoDES: Accelerating Mixture-of-Experts Multimodal Large Language Models via Dynamic Expert Skipping](https://arxiv.org/pdf/2511.15690)
 
 **Yushi Huang**, Zining Wang, Zhihang Yuan📧, Yifu Ding, Ruihao Gong, Jinyang Guo, Xianglong Liu, Jun Zhang📧
 
@@ -70,7 +77,7 @@ I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUS
 </div>
 
 </div>
-</div>
+</div> -->
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Highlight</div><img src='images/linvideo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
