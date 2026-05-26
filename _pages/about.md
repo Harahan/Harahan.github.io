@@ -57,12 +57,17 @@ I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUS
 
 <div class="pub-grid-2">
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/rtdmd.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='images/rtdmd.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Reinforcing Few-step Generators via Reward-Tilted Distribution Matching**
+[Reinforcing Few-step Generators via Reward-Tilted Distribution Matching](https://arxiv.org/pdf/2605.26108)
 
 **Yushi Huang\***, Xiangxin Zhou\*, Ruoyu Wang\*, Chi Zhang, Jun Zhang, Tianyu Pang📧
+
+<div style="display: inline">
+    <a class="resource-link" href="https://arxiv.org/pdf/2605.26108">Paper</a>
+    <a class="resource-link" href="https://github.com/Harahan/RTDMD">Code</a>
+</div>
 
 </div>
 </div>
