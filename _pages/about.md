@@ -21,19 +21,6 @@ redirect_from:
 I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUST), supervised by Prof. [Jun Zhang](https://eejzhang.people.ust.hk/home.html). I received my B.E. degree from Beihang University. My research interest is building efficient and high-performing generative systems. I currently work on RL for efficient image/video generation. Previously, I worked on improving inference efficiency for vision and language generative models, including low-precision inference, computation skipping, efficient attention, etc.
 
 
-<!-- <span class='anchor' id='-news'></span> -->
-<!-- # News
-<div class="news-list">
-  <ul>
-    <li><span class="news-date">2025.11</span><span>Our SlimInfer and LLMC+ are accepted to AAAI.</span></li>
-    <li><span class="news-date">2025.06</span><span>Our Temporal Feature Matters is accepted to TPAMI.</span></li>
-    <li><span class="news-date">2025.05</span><span>Our HarmoniCa is accepted to ICML.</span></li>
-    <li><span class="news-date">2024.10</span><span>Our LLMC is accepted to EMNLP Industry Track.</span></li>
-    <li><span class="news-date">2024.07</span><span>Our PTSBench is accepted to ACM MM.</span></li>
-    <li><span class="news-date">2024.02</span><span>Our TFMQ-DM is accepted to CVPR as a Highlight Poster (Top 2.8%).</span></li>
-  </ul>
-</div> -->
-
 <span class='anchor' id='-news'></span>
 # News
 
@@ -182,7 +169,7 @@ Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunche
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Toolkit</div><img src='images/llmc_tool.png' alt="LightCompress" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[LightCompress](https://github.com/ModelTC/LightCompress) is an off-the-shelf compression suite for AIGC models (LLMs, VLMs, diffusion, etc.) that packages SOTA quantization, sparsification, and deployment best practices to shrink models while preserving accuracy. **600+ GitHub Stars.**
+[LightCompress](https://github.com/ModelTC/LightCompress) is an off-the-shelf compression suite for AIGC models (LLMs, VLMs, diffusion, etc.) that packages SOTA quantization, sparsification, and deployment best practices to shrink models while preserving accuracy. **700+ GitHub Stars.**
 
 <div style="display: inline">
     <a class="resource-link" href="https://github.com/ModelTC/LightCompress">GitHub</a>
