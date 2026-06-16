@@ -44,7 +44,7 @@ I am always happy to chat about research and potential collaborations — feel f
 
 <div id="pub-selected" class="pub-view">
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Highlight</div><img src='images/linvideo.png' alt="LinVideo" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Highlight</div><img src='images/linvideo.webp' loading="lazy" decoding="async" alt="LinVideo" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [LinVideo: A Post-Training Framework towards $\mathcal{O}(n)$ Attention in Efficient Video Generation](https://arxiv.org/abs/2510.08318)
@@ -58,7 +58,7 @@ I am always happy to chat about research and potential collaborations — feel f
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/modes.png' alt="MoDES" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/modes.webp' loading="lazy" decoding="async" alt="MoDES" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MoDES: Accelerating Mixture-of-Experts Multimodal Large Language Models via Dynamic Expert Skipping](https://arxiv.org/abs/2511.15690)
@@ -73,7 +73,7 @@ I am always happy to chat about research and potential collaborations — feel f
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/qvgen.png' alt="QVGen" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/qvgen.webp' loading="lazy" decoding="async" alt="QVGen" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [QVGen: Pushing the Limit of Quantized Video Generative Models](https://arxiv.org/abs/2505.11497)
@@ -88,7 +88,7 @@ I am always happy to chat about research and potential collaborations — feel f
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='images/rtdmd.png' alt="RTDMD" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='images/rtdmd.webp' loading="lazy" decoding="async" alt="RTDMD" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Reinforcing Few-step Generators via Reward-Tilted Distribution Matching](https://arxiv.org/abs/2605.26108)
@@ -103,7 +103,7 @@ I am always happy to chat about research and potential collaborations — feel f
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2025</div><img src='images/temporal-feature-matters.png' alt="Temporal Feature Matters" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2025</div><img src='images/temporal-feature-matters.webp' loading="lazy" decoding="async" alt="Temporal Feature Matters" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Temporal Feature Matters: A Framework for Diffusion Model Quantization](https://arxiv.org/abs/2407.19547)
@@ -118,7 +118,7 @@ I am always happy to chat about research and potential collaborations — feel f
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/harmonica.png' alt="HarmoniCa" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/harmonica.webp' loading="lazy" decoding="async" alt="HarmoniCa" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [HarmoniCa: Harmonizing Training and Inference for Better Feature Caching in Diffusion Transformer Acceleration](https://arxiv.org/abs/2410.01723)
@@ -133,7 +133,7 @@ I am always happy to chat about research and potential collaborations — feel f
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024 Highlight</div><img src='images/tfmq-dm.png' alt="TFMQ-DM" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024 Highlight</div><img src='images/tfmq-dm.webp' loading="lazy" decoding="async" alt="TFMQ-DM" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [TFMQ-DM: Temporal Feature Maintenance Quantization for Diffusion Models](https://arxiv.org/abs/2311.16503)
@@ -149,7 +149,7 @@ I am always happy to chat about research and potential collaborations — feel f
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2024</div><img src='images/llmc.png' alt="LLMC" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2024</div><img src='images/llmc.webp' loading="lazy" decoding="async" alt="LLMC" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [LLMC: Benchmarking Large Language Model Quantization with a Versatile Compression Toolkit](https://arxiv.org/abs/2405.06001)
@@ -359,7 +359,7 @@ Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunche
 <span class='anchor' id='-projects'></span>
 # Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Toolkit</div><img src='images/llmc_tool.png' alt="LightCompress" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Toolkit</div><img src='images/llmc_tool.webp' loading="lazy" decoding="async" alt="LightCompress" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [LightCompress](https://github.com/ModelTC/LightCompress) is an off-the-shelf compression suite for AIGC models (LLMs, VLMs, diffusion, etc.) that packages SOTA quantization, sparsification, and deployment best practices to shrink models while preserving accuracy. **700+ GitHub Stars.**
