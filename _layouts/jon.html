@@ -10,6 +10,17 @@ layout: compress
     <meta name="description" content="{{ site.author.name }} — {{ site.author.bio }}. Homepage with research, publications, and projects.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Set theme before paint to avoid flash -->
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('theme') ||
+            (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+          document.documentElement.setAttribute('data-theme', t);
+        } catch (e) {}
+      })();
+    </script>
+
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..600&display=swap">
@@ -38,13 +49,18 @@ layout: compress
     <header class="site-nav" id="site-nav">
       <div class="site-nav__inner">
         <a class="site-nav__brand" href="#top">{{ site.author.name }}</a>
-        <nav class="site-nav__links">
-          <a href="#about-me">About</a>
-          <a href="#-news">News</a>
-          <a href="#-publications">Publications</a>
-          <a href="#-projects">Projects</a>
-          <a href="#-experience">Experience</a>
-        </nav>
+        <div class="site-nav__right">
+          <nav class="site-nav__links">
+            <a href="#about-me">About</a>
+            <a href="#-news">News</a>
+            <a href="#-publications">Publications</a>
+            <a href="#-projects">Projects</a>
+            <a href="#-experience">Experience</a>
+          </nav>
+          <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle light / dark">
+            <i class="fas fa-moon" aria-hidden="true"></i><i class="fas fa-sun" aria-hidden="true"></i>
+          </button>
+        </div>
       </div>
     </header>
 
@@ -139,6 +155,30 @@ layout: compress
               }
             })
             .catch(function () {});
+        }
+
+        // Dark-mode toggle
+        var themeBtn = document.getElementById('theme-toggle');
+        if (themeBtn) {
+          themeBtn.addEventListener('click', function () {
+            var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('theme', next); } catch (e) {}
+          });
+        }
+
+        // Fade-in on scroll (skip under reduced-motion / no IO support)
+        var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        if (!reduce && 'IntersectionObserver' in window) {
+          var revealEls = [].slice.call(document.querySelectorAll('.content h1, .paper-box, .cv-item, .news-box'));
+          document.documentElement.classList.add('has-motion');
+          revealEls.forEach(function (el) { el.classList.add('reveal'); });
+          var io = new IntersectionObserver(function (entries) {
+            entries.forEach(function (en) {
+              if (en.isIntersecting) { en.target.classList.add('is-in'); io.unobserve(en.target); }
+            });
+          }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+          revealEls.forEach(function (el) { io.observe(el); });
         }
       })();
     </script>
