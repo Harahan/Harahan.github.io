@@ -22,9 +22,11 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Yushi Huang"
+  name_cn          : "黄雨石"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Ph.D. candidate @ HKUST"
-  # location         : "Hong Kong SAR"
+  bio              : "Ph.D. Student at HKUST · Efficient generative models"
+  location         : "Hong Kong SAR"
+  cv               : "images/Resume.pdf"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=9-FYp3EAAAAJ"

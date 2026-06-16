@@ -7,11 +7,16 @@ layout: compress
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>{{ site.author.name | default: site.title }}</title>
     <meta name="author" content="{{ site.author.name | escape }}">
+    <meta name="description" content="{{ site.author.name }} — {{ site.author.bio }}. Homepage with research, publications, and projects.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..600&display=swap">
     <link rel="stylesheet" type="text/css" href="/stylesheet.css">
     <link rel="stylesheet" type="text/css" href="/jon-extra.css">
+    <link rel="stylesheet" href="/assets/css/academicons.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <!-- MathJax (restore LaTeX rendering used by the previous Jekyll theme) -->
     <script type="text/x-mathjax-config">
@@ -29,50 +34,113 @@ layout: compress
   </head>
 
   <body>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  {{ site.author.name }}
-                </p>
-                {% if site.author.bio %}
-                <p style="text-align:center">
-                  {{ site.author.bio }}
-                </p>
-                {% endif %}
-                <p style="text-align:center">
-                  {% if site.author.email %}<a href="mailto:{{ site.author.email }}">Email</a>{% endif %}
-                  {% if site.author.email %} &nbsp;/&nbsp; {% endif %}
-                  {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}">Scholar</a> &nbsp;/&nbsp;{% endif %}
-                  {% if site.author.twitter %}<a href="https://twitter.com/{{ site.author.twitter }}">Twitter</a> &nbsp;/&nbsp;{% endif %}
-                  {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}">Github</a>{% endif %}
-                </p>
-              </td>
-              <td style="padding:2.5%;width:37%;max-width:37%">
-                {% if site.author.avatar %}
-                <a href="/{{ site.author.avatar }}"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="/{{ site.author.avatar }}"></a>
-                {% endif %}
-              </td>
-            </tr>
-          </tbody></table>
+    <!-- Sticky top navigation -->
+    <header class="site-nav" id="site-nav">
+      <div class="site-nav__inner">
+        <a class="site-nav__brand" href="#top">{{ site.author.name }}</a>
+        <nav class="site-nav__links">
+          <a href="#about-me">About</a>
+          <a href="#-news">News</a>
+          <a href="#-publications">Publications</a>
+          <a href="#-projects">Projects</a>
+          <a href="#-experience">Experience</a>
+        </nav>
+      </div>
+    </header>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                {{ content }}
-              </td>
-            </tr>
-          </tbody></table>
-        </td>
-      </tr>
-    </tbody></table>
+    <main class="wrap" id="top">
+      <!-- Hero / profile header -->
+      <section class="hero">
+        <div class="hero__text">
+          <h1 class="hero__name">{{ site.author.name }}{% if site.author.name_cn %} <span class="hero__name-cn">{{ site.author.name_cn }}</span>{% endif %}</h1>
+          {% if site.author.bio %}<p class="hero__role">{{ site.author.bio }}</p>{% endif %}
+          {% if site.author.location %}<p class="hero__loc"><i class="fas fa-location-dot"></i> {{ site.author.location }}</p>{% endif %}
 
-    <!-- Support existing abstract toggle behavior in about.md -->
+          <div class="hero__links">
+            {% if site.author.email %}<a href="mailto:{{ site.author.email }}"><i class="fas fa-envelope"></i> Email</a>{% endif %}
+            {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i> Scholar</a>{% endif %}
+            {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>{% endif %}
+            {% if site.author.twitter %}<a href="https://x.com/{{ site.author.twitter }}" target="_blank" rel="noopener"><i class="fab fa-x-twitter"></i> X</a>{% endif %}
+            {% if site.author.linkedin %}<a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>{% endif %}
+            {% if site.author.cv %}<a href="/{{ site.author.cv }}" target="_blank" rel="noopener"><i class="fas fa-file-lines"></i> CV</a>{% endif %}
+          </div>
+        </div>
+
+        {% if site.author.avatar %}
+        <div class="hero__photo">
+          <img src="/{{ site.author.avatar }}" alt="{{ site.author.name }}">
+        </div>
+        {% endif %}
+      </section>
+
+      <!-- Page content (about.md) -->
+      <div class="content">
+        {{ content }}
+      </div>
+
+      <footer class="site-footer">
+        <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}. Built with Jekyll. Last updated {{ site.time | date: "%b %Y" }}.</p>
+      </footer>
+    </main>
+
+    <a href="#top" class="to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+      (function () {
+        // Publications: Selected / Full list toggle
+        document.querySelectorAll('.pub-tab').forEach(function (tab) {
+          tab.addEventListener('click', function () {
+            var group = tab.closest('.pub-tabs');
+            var targetId = tab.getAttribute('data-target');
+            group.querySelectorAll('.pub-tab').forEach(function (t) { t.classList.remove('is-active'); });
+            tab.classList.add('is-active');
+            document.querySelectorAll('.pub-view').forEach(function (v) {
+              v.hidden = (v.id !== targetId);
+            });
+          });
+        });
+
+        // Sticky nav: shrink on scroll + highlight current section
+        var nav = document.getElementById('site-nav');
+        var sections = ['about-me', '-news', '-publications', '-projects', '-experience']
+          .map(function (id) { return document.getElementById(id); })
+          .filter(Boolean);
+        var navLinks = Array.prototype.slice.call(document.querySelectorAll('.site-nav__links a'));
+
+        function onScroll() {
+          if (window.scrollY > 24) { nav.classList.add('is-scrolled'); }
+          else { nav.classList.remove('is-scrolled'); }
+
+          var current = '';
+          var probe = window.scrollY + 120;
+          sections.forEach(function (sec) {
+            if (sec.offsetTop <= probe) { current = sec.id; }
+          });
+          navLinks.forEach(function (link) {
+            link.classList.toggle('is-active', link.getAttribute('href') === '#' + current);
+          });
+
+          var toTop = document.querySelector('.to-top');
+          if (toTop) { toTop.classList.toggle('is-visible', window.scrollY > 600); }
+        }
+        window.addEventListener('scroll', onScroll, { passive: true });
+        onScroll();
+
+        // Live Google Scholar citation count (gracefully hidden if unavailable)
+        var citeEl = document.getElementById('gs-cite');
+        if (citeEl) {
+          fetch('https://cdn.jsdelivr.net/gh/{{ site.repository }}@google-scholar-stats/gs_data_shieldsio.json')
+            .then(function (r) { return r.ok ? r.json() : Promise.reject(); })
+            .then(function (data) {
+              if (data && data.message) {
+                document.getElementById('gs-cite-num').textContent = data.message;
+                citeEl.hidden = false;
+              }
+            })
+            .catch(function () {});
+        }
+      })();
+    </script>
   </body>
 </html>
-
-
