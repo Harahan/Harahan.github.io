@@ -19,6 +19,7 @@ I am always happy to chat about research and potential collaborations — feel f
 # News
 
 <div class="news-box" markdown="1">
+- *2026.06*: &nbsp;🎉🎉 Our SALT is accepted to ECCV.
 - *2026.05*: &nbsp;🎉🎉 Our Light Forcing, SGMD, and Flash-VAED are accepted to ICML.
 - *2026.04*: &nbsp;🎉🎉 Our LinVideo is selected as a Highlight Poster.
 - *2026.04*: &nbsp;🎉🎉 Our Focus-dLLM is accepted to ACL (Main).
@@ -188,7 +189,7 @@ Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunche
 </div>
 
 <div class="pub-item">
-  <div class="pub-venue"><span class="pub-venue-name">arXiv</span><span class="pub-venue-year">2026</span></div>
+  <div class="pub-venue"><span class="pub-venue-name">ECCV</span><span class="pub-venue-year">2026</span></div>
   <div class="pub-main">
     <a class="pub-title" href="https://arxiv.org/abs/2604.03118" target="_blank" rel="noopener">Salt: Self-Consistent Distribution Matching with Cache-Aware Training for Few-Step Video Generation</a>
     <div class="pub-auth">Xingtong Ge, Yi Zhang, <strong>Yushi Huang</strong>, Dailan He, Xiahong Wang, Bingqi Ma, Guanglu Song, Yu Liu, Jun Zhang📧</div>
