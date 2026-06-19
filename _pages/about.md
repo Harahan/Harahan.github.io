@@ -45,7 +45,7 @@ I am always happy to chat about research and potential collaborations — feel f
 
 <div id="pub-selected" class="pub-view">
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Highlight</div><img src='images/linvideo.webp' loading="lazy" decoding="async" alt="LinVideo" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Highlight</div><img src='images/linvideo.webp?v={{ site.time | date: "%s" }}' loading="lazy" decoding="async" alt="LinVideo" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [LinVideo: A Post-Training Framework towards $\mathcal{O}(n)$ Attention in Efficient Video Generation](https://arxiv.org/abs/2510.08318)
@@ -59,7 +59,7 @@ I am always happy to chat about research and potential collaborations — feel f
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/qvgen.webp' loading="lazy" decoding="async" alt="QVGen" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/qvgen.webp?v={{ site.time | date: "%s" }}' loading="lazy" decoding="async" alt="QVGen" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [QVGen: Pushing the Limit of Quantized Video Generative Models](https://arxiv.org/abs/2505.11497)
@@ -74,7 +74,7 @@ I am always happy to chat about research and potential collaborations — feel f
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='images/rtdmd.webp' loading="lazy" decoding="async" alt="RTDMD" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='images/rtdmd.webp?v={{ site.time | date: "%s" }}' loading="lazy" decoding="async" alt="RTDMD" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Reinforcing Few-step Generators via Reward-Tilted Distribution Matching](https://arxiv.org/abs/2605.26108)
@@ -89,7 +89,7 @@ I am always happy to chat about research and potential collaborations — feel f
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/modes.webp' loading="lazy" decoding="async" alt="MoDES" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/modes.webp?v={{ site.time | date: "%s" }}' loading="lazy" decoding="async" alt="MoDES" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MoDES: Accelerating Mixture-of-Experts Multimodal Large Language Models via Dynamic Expert Skipping](https://arxiv.org/abs/2511.15690)
@@ -299,7 +299,7 @@ I am always happy to chat about research and potential collaborations — feel f
 <span class='anchor' id='-projects'></span>
 # Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Toolkit</div><img src='images/llmc_tool.webp' loading="lazy" decoding="async" alt="LightCompress" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Toolkit</div><img src='images/llmc_tool.webp?v={{ site.time | date: "%s" }}' loading="lazy" decoding="async" alt="LightCompress" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [LightCompress](https://github.com/ModelTC/LightCompress) is an off-the-shelf compression suite for AIGC models (LLMs, VLMs, diffusion, etc.) that packages SOTA quantization, sparsification, and deployment best practices to shrink models while preserving accuracy. **700+ GitHub Stars.**
