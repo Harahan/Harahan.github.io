@@ -348,7 +348,11 @@ button:focus-visible,
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
+  align-items: stretch;
 }
+/* keep the teaser figures pinned to the top of each card */
+#pub-selected .paper-box { justify-content: flex-start; }
+#pub-selected .paper-box-image { align-items: flex-start; }
 
 .paper-box {
   display: flex;
@@ -391,11 +395,14 @@ button:focus-visible,
 #pub-selected .paper-box-image { order: 0; width: 100%; flex: none; max-width: none; }
 #pub-selected .paper-box-image img {
   width: 100%;
-  height: 158px;
+  aspect-ratio: 3.45 / 1;
+  height: auto;
   max-width: none;
   object-fit: cover;
-  object-position: center top;
+  object-position: center;
 }
+/* QVGen is a wide chart — show it fully (no clipped axes); fills the short box */
+#pub-selected .paper-box-image img[alt="QVGen"] { object-fit: contain; }
 #pub-selected .paper-box-text { order: 1; font-size: 0.86rem; }
 #pub-selected .paper-box-text > p:first-of-type a { font-size: 0.92rem; }
 #pub-selected .resource-link { font-size: 0.74rem; padding: 0.24rem 0.7rem; }
@@ -588,7 +595,7 @@ html.has-motion .reveal.is-in {
   .hero__photo img { width: 116px; height: 116px; border-radius: 16px; }
 
   #pub-selected { grid-template-columns: 1fr; }
-  #pub-selected .paper-box-image img { height: 180px; }
+  #pub-selected .paper-box-image img { aspect-ratio: 3.1 / 1; height: auto; }
 
   .pub-item { grid-template-columns: 1fr; gap: 0.35rem; }
   .pub-venue { flex-direction: row; gap: 0.35rem; align-items: baseline; }
