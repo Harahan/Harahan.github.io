@@ -5,7 +5,7 @@ layout: compress
 <html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>{{ site.author.name | default: site.title }}</title>
+    <title>{{ site.author.name }} | HKUST</title>
     <meta name="author" content="{{ site.author.name | escape }}">
     <meta name="description" content="{{ site.author.name }} — {{ site.author.bio }}. Homepage with research, publications, and projects.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,7 +21,12 @@ layout: compress
       })();
     </script>
 
-    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/images/favicon.ico?v={{ site.time | date: '%s' }}" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png?v={{ site.time | date: '%s' }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png?v={{ site.time | date: '%s' }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png?v={{ site.time | date: '%s' }}">
+    <meta name="theme-color" content="#234e8c" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0e131a" media="(prefers-color-scheme: dark)">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..600&display=swap">
     <link rel="stylesheet" type="text/css" href="/stylesheet.css?v={{ site.time | date: '%s' }}">
@@ -50,7 +55,7 @@ layout: compress
       <div class="site-nav__inner">
         <a class="site-nav__brand" href="#top">{{ site.author.name }}</a>
         <div class="site-nav__right">
-          <nav class="site-nav__links">
+          <nav class="site-nav__links" aria-label="Primary">
             <a href="#about-me">About</a>
             <a href="#-news">News</a>
             <a href="#-publications">Publications</a>
@@ -134,7 +139,10 @@ layout: compress
             if (sec.offsetTop <= probe) { current = sec.id; }
           });
           navLinks.forEach(function (link) {
-            link.classList.toggle('is-active', link.getAttribute('href') === '#' + current);
+            var active = link.getAttribute('href') === '#' + current;
+            link.classList.toggle('is-active', active);
+            if (active) { link.setAttribute('aria-current', 'true'); }
+            else { link.removeAttribute('aria-current'); }
           });
 
           var toTop = document.querySelector('.to-top');
@@ -160,10 +168,16 @@ layout: compress
         // Dark-mode toggle
         var themeBtn = document.getElementById('theme-toggle');
         if (themeBtn) {
+          var syncPressed = function () {
+            themeBtn.setAttribute('aria-pressed',
+              document.documentElement.getAttribute('data-theme') === 'dark' ? 'true' : 'false');
+          };
+          syncPressed();
           themeBtn.addEventListener('click', function () {
             var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
             document.documentElement.setAttribute('data-theme', next);
             try { localStorage.setItem('theme', next); } catch (e) {}
+            syncPressed();
           });
         }
 

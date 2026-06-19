@@ -59,21 +59,6 @@ I am always happy to chat about research and potential collaborations — feel f
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/modes.webp' loading="lazy" decoding="async" alt="MoDES" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[MoDES: Accelerating Mixture-of-Experts Multimodal Large Language Models via Dynamic Expert Skipping](https://arxiv.org/abs/2511.15690)
-
-**Yushi Huang**, Zining Wang, Zhihang Yuan📧, Yifu Ding, Ruihao Gong, Jinyang Guo, Xianglong Liu, Jun Zhang📧
-
-<div style="display: inline">
-    <a class="resource-link" href="https://arxiv.org/abs/2511.15690">Paper</a>
-    <a class="resource-link" href="https://github.com/ModelTC/MoDES">Code</a>
-</div>
-
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/qvgen.webp' loading="lazy" decoding="async" alt="QVGen" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -104,62 +89,16 @@ I am always happy to chat about research and potential collaborations — feel f
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2025</div><img src='images/temporal-feature-matters.webp' loading="lazy" decoding="async" alt="Temporal Feature Matters" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/modes.webp' loading="lazy" decoding="async" alt="MoDES" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Temporal Feature Matters: A Framework for Diffusion Model Quantization](https://arxiv.org/abs/2407.19547)
+[MoDES: Accelerating Mixture-of-Experts Multimodal Large Language Models via Dynamic Expert Skipping](https://arxiv.org/abs/2511.15690)
 
-**Yushi Huang**, Ruihao Gong, Xianglong Liu📧, Jing Liu, Yuhang Li, Jiwen Lu, Dacheng Tao
-
-<div style="display: inline">
-    <a class="resource-link" href="https://arxiv.org/abs/2407.19547">Paper</a>
-    <a class="resource-link" href="https://github.com/ModelTC/TFMQ-DM">Code</a>
-</div>
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/harmonica.webp' loading="lazy" decoding="async" alt="HarmoniCa" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[HarmoniCa: Harmonizing Training and Inference for Better Feature Caching in Diffusion Transformer Acceleration](https://arxiv.org/abs/2410.01723)
-
-**Yushi Huang\***, Zining Wang\*, Ruihao Gong📧, Jing Liu, Xinjie Zhang, Jinyang Guo, Xianglong Liu, Jun Zhang📧
+**Yushi Huang**, Zining Wang, Zhihang Yuan📧, Yifu Ding, Ruihao Gong, Jinyang Guo, Xianglong Liu, Jun Zhang📧
 
 <div style="display: inline">
-    <a class="resource-link" href="https://arxiv.org/abs/2410.01723">Paper</a>
-    <a class="resource-link" href="https://github.com/ModelTC/HarmoniCa">Code</a>
-</div>
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024 Highlight</div><img src='images/tfmq-dm.webp' loading="lazy" decoding="async" alt="TFMQ-DM" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[TFMQ-DM: Temporal Feature Maintenance Quantization for Diffusion Models](https://arxiv.org/abs/2311.16503)
-
-**Yushi Huang\***, Ruihao Gong\*, Jing Liu, Tianlong Chen, Xianglong Liu📧
-
-<div style="display: inline">
-    <a class="resource-link" href="https://arxiv.org/abs/2311.16503">Paper</a>
-    <a class="resource-link" href="https://github.com/ModelTC/TFMQ-DM">Code</a>
-    <a class="resource-link" href="https://modeltc.github.io/TFMQ-DM/">Project Page</a>
-</div>
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2024</div><img src='images/llmc.webp' loading="lazy" decoding="async" alt="LLMC" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[LLMC: Benchmarking Large Language Model Quantization with a Versatile Compression Toolkit](https://arxiv.org/abs/2405.06001)
-
-Ruihao Gong\*, Yang Yong\*, Shiqiao Gu\*, **Yushi Huang\***, Chengtao Lv, Yunchen Zhang, Dacheng Tao, Xianglong Liu📧
-
-<div style="display: inline">
-    <a class="resource-link" href="https://arxiv.org/abs/2405.06001">Paper</a>
-    <a class="resource-link" href="https://github.com/ModelTC/llmc">Code</a>
+    <a class="resource-link" href="https://arxiv.org/abs/2511.15690">Paper</a>
+    <a class="resource-link" href="https://github.com/ModelTC/MoDES">Code</a>
 </div>
 
 </div>
