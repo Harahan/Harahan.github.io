@@ -366,6 +366,7 @@ I am always happy to chat about research and potential collaborations — feel f
   <div class="cv-date">2025.09 – 2025.11</div>
 </div>
 
+<!--
 <div class="cv-item">
   <img class="cv-logo" src="images/logos/microsoft.png" alt="Microsoft Research Asia">
   <div class="cv-info">
@@ -375,6 +376,7 @@ I am always happy to chat about research and potential collaborations — feel f
   </div>
   <div class="cv-date">2024.12 – 2025.02</div>
 </div>
+-->
 
 <div class="cv-item">
   <img class="cv-logo" src="images/logos/sensetime.png" alt="SenseTime Research">
