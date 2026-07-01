@@ -83,7 +83,7 @@ layout: compress
             {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>{% endif %}
             {% if site.author.twitter %}<a href="https://x.com/{{ site.author.twitter }}" target="_blank" rel="noopener"><i class="fab fa-x-twitter"></i> X</a>{% endif %}
             {% if site.author.linkedin %}<a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>{% endif %}
-            {% if site.author.cv %}<a href="/{{ site.author.cv }}" target="_blank" rel="noopener"><i class="fas fa-file-lines"></i> CV</a>{% endif %}
+            {% if site.author.cv %}<a href="/{{ site.author.cv }}?v={{ site.time | date: '%s' }}" target="_blank" rel="noopener"><i class="fas fa-file-lines"></i> CV</a>{% endif %}
           </div>
         </div>
 
