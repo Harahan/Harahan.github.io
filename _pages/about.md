@@ -74,16 +74,18 @@ I am always happy to chat about research and potential collaborations — feel f
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='images/rtdmd.webp?v={{ site.time | date: "%s" }}' loading="lazy" decoding="async" alt="RTDMD" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='images/meanflownft.webp?v={{ site.time | date: "%s" }}' loading="lazy" decoding="async" alt="MeanFlowNFT" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Reinforcing Few-step Generators via Reward-Tilted Distribution Matching](https://arxiv.org/abs/2605.26108)
+[MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity Generators](https://arxiv.org/abs/2607.15273)
 
-**Yushi Huang\***, Xiangxin Zhou\*, Ruoyu Wang\*, Chi Zhang, Jun Zhang, Tianyu Pang📧
+**Yushi Huang\***, Xiangxin Zhou\*📧, Jun Zhang, Liefeng Bo, Tianyu Pang📧
 
 <div style="display: inline">
-    <a class="resource-link" href="https://arxiv.org/abs/2605.26108">Paper</a>
-    <a class="resource-link" href="https://github.com/Harahan/RTDMD">Code</a>
+    <a class="resource-link" href="https://arxiv.org/abs/2607.15273">Paper</a>
+    <a class="resource-link" href="https://github.com/Harahan/MeanFlowNFT">Code</a>
+    <a class="resource-link" href="https://harahan.github.io/meanflownft-project-page/">Project</a>
+    <a class="resource-link" href="https://huggingface.co/Harahan/MeanFlowNFT">Models</a>
 </div>
 
 </div>
@@ -112,9 +114,18 @@ I am always happy to chat about research and potential collaborations — feel f
 <div class="pub-item">
   <div class="pub-venue"><span class="pub-venue-name">arXiv</span><span class="pub-venue-year">2026</span></div>
   <div class="pub-main">
+    <a class="pub-title" href="https://arxiv.org/abs/2607.15273" target="_blank" rel="noopener">MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity Generators</a>
+    <div class="pub-auth"><strong>Yushi Huang*</strong>, Xiangxin Zhou*📧, Jun Zhang, Liefeng Bo, Tianyu Pang📧</div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2607.15273" target="_blank" rel="noopener">Paper</a><a href="https://github.com/Harahan/MeanFlowNFT" target="_blank" rel="noopener">Code</a><a href="https://harahan.github.io/meanflownft-project-page/" target="_blank" rel="noopener">Project</a><a href="https://huggingface.co/Harahan/MeanFlowNFT" target="_blank" rel="noopener">Models</a></div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-venue"><span class="pub-venue-name">arXiv</span><span class="pub-venue-year">2026</span></div>
+  <div class="pub-main">
     <a class="pub-title" href="https://arxiv.org/abs/2606.11075" target="_blank" rel="noopener">Exploring the Design Space of Reward Backpropagation for Flow Matching</a>
     <div class="pub-auth">Ruoyu Wang*, Boye Niu*, Xiangxin Zhou*, <strong>Yushi Huang</strong>, Tongliang Liu, Chi Zhang📧</div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2606.11075" target="_blank" rel="noopener">Paper</a></div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2606.11075" target="_blank" rel="noopener">Paper</a><a href="https://github.com/RuoyuWang-2077/FlowBP" target="_blank" rel="noopener">Code</a></div>
   </div>
 </div>
 
@@ -123,7 +134,7 @@ I am always happy to chat about research and potential collaborations — feel f
   <div class="pub-main">
     <a class="pub-title" href="https://arxiv.org/abs/2605.26108" target="_blank" rel="noopener">Reinforcing Few-step Generators via Reward-Tilted Distribution Matching</a>
     <div class="pub-auth"><strong>Yushi Huang*</strong>, Xiangxin Zhou*, Ruoyu Wang*, Chi Zhang, Jun Zhang, Tianyu Pang📧</div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2605.26108" target="_blank" rel="noopener">Paper</a><a href="https://github.com/Harahan/RTDMD" target="_blank" rel="noopener">Code</a></div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2605.26108" target="_blank" rel="noopener">Paper</a><a href="https://github.com/Harahan/RTDMD" target="_blank" rel="noopener">Code</a><a href="https://huggingface.co/collections/Harahan/rtdmd" target="_blank" rel="noopener">Models</a></div>
   </div>
 </div>
 
@@ -132,7 +143,7 @@ I am always happy to chat about research and potential collaborations — feel f
   <div class="pub-main">
     <a class="pub-title" href="https://arxiv.org/abs/2604.03118" target="_blank" rel="noopener">Salt: Self-Consistent Distribution Matching with Cache-Aware Training for Few-Step Video Generation</a>
     <div class="pub-auth">Xingtong Ge, Yi Zhang, <strong>Yushi Huang</strong>, Dailan He, Xiahong Wang, Bingqi Ma, Guanglu Song, Yu Liu, Jun Zhang📧</div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2604.03118" target="_blank" rel="noopener">Paper</a></div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2604.03118" target="_blank" rel="noopener">Paper</a><a href="https://github.com/XingtongGe/Salt" target="_blank" rel="noopener">Code</a></div>
   </div>
 </div>
 
@@ -141,7 +152,7 @@ I am always happy to chat about research and potential collaborations — feel f
   <div class="pub-main">
     <a class="pub-title" href="https://arxiv.org/abs/2603.15433" target="_blank" rel="noopener">Real-Time Human Frontal View Synthesis from a Single Image</a>
     <div class="pub-auth">Fangyu Lin, Yingdong Hu, Lunjie Zhu, Zhening Liu, <strong>Yushi Huang</strong>, Zehong Lin, Jun Zhang📧</div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2603.15433" target="_blank" rel="noopener">Paper</a></div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2603.15433" target="_blank" rel="noopener">Paper</a><a href="https://github.com/rslinfy/PrismMirror" target="_blank" rel="noopener">Code</a></div>
   </div>
 </div>
 
@@ -159,7 +170,7 @@ I am always happy to chat about research and potential collaborations — feel f
   <div class="pub-main">
     <a class="pub-title" href="https://arxiv.org/abs/2602.19161" target="_blank" rel="noopener">Flash-VAED: Plug-and-Play VAE Decoders for Efficient Video Generation</a>
     <div class="pub-auth">Lunjie Zhu, <strong>Yushi Huang</strong>, Xingtong Ge, Yufei Xue, Zhening Liu, Yumeng Zhang, Zehong Lin, Jun Zhang📧</div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2602.19161" target="_blank" rel="noopener">Paper</a></div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2602.19161" target="_blank" rel="noopener">Paper</a><a href="https://github.com/Aoko955/Flash-VAED" target="_blank" rel="noopener">Code</a></div>
   </div>
 </div>
 
@@ -269,7 +280,7 @@ I am always happy to chat about research and potential collaborations — feel f
   <div class="pub-main">
     <a class="pub-title" href="https://arxiv.org/abs/2412.07268" target="_blank" rel="noopener">PTSBench: A Comprehensive Post-Training Sparsity Benchmark Towards Algorithms and Models</a>
     <div class="pub-auth">Zining Wang, Jinyang Guo, Ruihao Gong, Yang Yong, Aishan Liu, <strong>Yushi Huang</strong>, Jiaheng Liu, Xianglong Liu</div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2412.07268" target="_blank" rel="noopener">Paper</a></div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2412.07268" target="_blank" rel="noopener">Paper</a><a href="https://github.com/ModelTC/msbench" target="_blank" rel="noopener">Code</a></div>
   </div>
 </div>
 
