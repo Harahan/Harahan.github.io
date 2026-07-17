@@ -69,6 +69,7 @@ I am always happy to chat about research and potential collaborations — feel f
 <div style="display: inline">
     <a class="resource-link" href="https://arxiv.org/abs/2505.11497">Paper</a>
     <a class="resource-link" href="https://github.com/ModelTC/QVGen">Code</a>
+    <a class="resource-link" href="https://huggingface.co/collections/Harahan/qvgen">Models</a>
 </div>
 
 </div>
@@ -235,7 +236,7 @@ I am always happy to chat about research and potential collaborations — feel f
   <div class="pub-main">
     <a class="pub-title" href="https://arxiv.org/abs/2505.11497" target="_blank" rel="noopener">QVGen: Pushing the Limit of Quantized Video Generative Models</a>
     <div class="pub-auth"><strong>Yushi Huang</strong>, Ruihao Gong📧, Jing Liu, Yifu Ding, Chengtao Lv, Haotong Qin, Jun Zhang📧</div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2505.11497" target="_blank" rel="noopener">Paper</a><a href="https://github.com/ModelTC/QVGen" target="_blank" rel="noopener">Code</a></div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2505.11497" target="_blank" rel="noopener">Paper</a><a href="https://github.com/ModelTC/QVGen" target="_blank" rel="noopener">Code</a><a href="https://huggingface.co/collections/Harahan/qvgen" target="_blank" rel="noopener">Models</a></div>
   </div>
 </div>
 
