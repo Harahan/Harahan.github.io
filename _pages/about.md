@@ -36,7 +36,7 @@ I am always happy to chat about research and potential collaborations — feel f
 <span class='anchor' id='-publications'></span>
 # Publications
 
-<p class="pub-legend">* equal contribution &nbsp;·&nbsp; 📧 corresponding author &nbsp;·&nbsp; full list sorted by date. <span id="gs-cite" class="gs-cite" hidden>Citations: <a href="https://scholar.google.com/citations?hl=en&user=9-FYp3EAAAAJ" target="_blank" rel="noopener"><span id="gs-cite-num"></span></a></span></p>
+<p class="pub-legend">* equal contribution &nbsp;·&nbsp; 📧 corresponding author &nbsp;·&nbsp; full list sorted by date.</p>
 
 <div class="pub-tabs">
   <button class="pub-tab is-active" data-target="pub-selected" type="button">Selected</button>

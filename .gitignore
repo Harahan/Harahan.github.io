@@ -3,3 +3,8 @@ push.sh
 .DS_Store
 .cursor/
 _template_jonbarron/
+
+# Local Ruby/Jekyll build artifacts (not needed for GitHub Pages)
+vendor/
+.jekyll-cache/
+.jekyll-metadata

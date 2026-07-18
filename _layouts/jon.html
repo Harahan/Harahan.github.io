@@ -10,6 +10,27 @@ layout: compress
     <meta name="description" content="{{ site.author.name }} — {{ site.author.bio }}. Homepage with research, publications, and projects.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Open Graph (link preview for WeChat / Slack / LinkedIn, etc.) -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ site.author.name }}">
+    <meta property="og:title" content="{{ site.author.name }} | HKUST">
+    <meta property="og:description" content="{{ site.author.bio }}">
+    <meta property="og:url" content="https://harahan.github.io/">
+    <meta property="og:image" content="https://harahan.github.io/images/og-image.png?v={{ site.time | date: '%s' }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    {% if site.google_analytics_id %}
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){ dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', '{{ site.google_analytics_id }}');
+    </script>
+    {% endif %}
+
     <!-- Set theme before paint to avoid flash -->
     <script>
       (function () {
@@ -150,20 +171,6 @@ layout: compress
         }
         window.addEventListener('scroll', onScroll, { passive: true });
         onScroll();
-
-        // Live Google Scholar citation count (gracefully hidden if unavailable)
-        var citeEl = document.getElementById('gs-cite');
-        if (citeEl) {
-          fetch('https://cdn.jsdelivr.net/gh/{{ site.repository }}@google-scholar-stats/gs_data_shieldsio.json')
-            .then(function (r) { return r.ok ? r.json() : Promise.reject(); })
-            .then(function (data) {
-              if (data && data.message) {
-                document.getElementById('gs-cite-num').textContent = data.message;
-                citeEl.hidden = false;
-              }
-            })
-            .catch(function () {});
-        }
 
         // Dark-mode toggle
         var themeBtn = document.getElementById('theme-toggle');
