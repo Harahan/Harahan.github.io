@@ -400,19 +400,28 @@ button:focus-visible,
   max-width: none;
   object-fit: cover;
   object-position: center;
+  background: #fff;
 }
 /* QVGen is a wide chart — show it fully (no clipped axes); fills the short box */
 #pub-selected .paper-box-image img[alt="QVGen"] { object-fit: contain; }
+/* MoDES figure is tall — anchor the crop to the top example, not the middle */
+#pub-selected .paper-box-image img[alt="MoDES"] { object-position: top; }
 #pub-selected .paper-box-text { order: 1; font-size: 0.86rem; }
 #pub-selected .paper-box-text > p:first-of-type a { font-size: 0.92rem; }
 #pub-selected .resource-link { font-size: 0.74rem; padding: 0.24rem 0.7rem; }
 
 /* standalone cards (e.g. Projects) keep the wide image-left row layout */
 @media (min-width: 720px) {
-  .paper-box { flex-direction: row; align-items: stretch; gap: 1.5rem; }
-  .paper-box-image { flex: 0 0 42%; max-width: 42%; order: 1; align-items: center; }
-  .paper-box-text { flex: 1; order: 2; max-width: none; }
+  .paper-box:not(.paper-box--wide) { flex-direction: row; align-items: stretch; gap: 1.5rem; }
+  .paper-box:not(.paper-box--wide) .paper-box-image { flex: 0 0 42%; max-width: 42%; order: 1; align-items: center; }
+  .paper-box:not(.paper-box--wide) .paper-box-text { flex: 1; order: 2; max-width: none; }
 }
+
+/* wide project card: dense figure spans full width on top so it stays legible */
+.paper-box--wide { flex-direction: column; align-items: stretch; gap: 0.9rem; }
+.paper-box--wide .paper-box-image { order: 0; width: 100%; max-width: none; flex: none; align-items: stretch; }
+.paper-box--wide .paper-box-image img { width: 100%; max-width: none; height: auto; object-fit: contain; background: #fff; }
+.paper-box--wide .paper-box-text { order: 1; flex: none; max-width: none; }
 
 .badge {
   position: absolute;

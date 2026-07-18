@@ -11,7 +11,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUST), supervised by Prof. [Jun Zhang](https://eejzhang.people.ust.hk/home.html). I received my B.E. degree from Beihang University. My research interest is building **efficient and high-performing generative systems**. I currently work on RL for efficient image/video generation. Previously, I worked on improving inference efficiency for vision and language generative models, including low-precision inference, computation skipping, efficient attention, etc.
+I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUST), supervised by Prof. [Jun Zhang](https://eejzhang.people.ust.hk/home.html). I received my B.E. degree from Beihang University. My research interest is building **efficient and high-performing generative AI**. I currently work on RL for efficient image/video generation. Previously, I worked on improving inference efficiency for vision and language generative models, including low-precision inference, computation skipping, efficient attention, etc.
 
 I am always happy to chat about research and potential collaborations — feel free to [reach out](mailto:yh4717023@gmail.com).
 
@@ -311,7 +311,7 @@ I am always happy to chat about research and potential collaborations — feel f
 <span class='anchor' id='-projects'></span>
 # Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Toolkit</div><img src='images/llmc_tool.webp?v={{ site.time | date: "%s" }}' loading="lazy" decoding="async" alt="LightCompress" width="100%"></div></div>
+<div class='paper-box paper-box--wide'><div class='paper-box-image'><div><div class="badge">Toolkit</div><img src='images/llmc_tool.webp?v={{ site.time | date: "%s" }}' loading="lazy" decoding="async" alt="LightCompress" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [LightCompress](https://github.com/ModelTC/LightCompress) is an off-the-shelf compression suite for AIGC models (LLMs, VLMs, diffusion, etc.) that packages SOTA quantization, sparsification, and deployment best practices to shrink models while preserving accuracy. **700+ GitHub Stars.**
