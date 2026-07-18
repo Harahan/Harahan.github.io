@@ -412,16 +412,10 @@ button:focus-visible,
 
 /* standalone cards (e.g. Projects) keep the wide image-left row layout */
 @media (min-width: 720px) {
-  .paper-box:not(.paper-box--wide) { flex-direction: row; align-items: stretch; gap: 1.5rem; }
-  .paper-box:not(.paper-box--wide) .paper-box-image { flex: 0 0 42%; max-width: 42%; order: 1; align-items: center; }
-  .paper-box:not(.paper-box--wide) .paper-box-text { flex: 1; order: 2; max-width: none; }
+  .paper-box { flex-direction: row; align-items: stretch; gap: 1.5rem; }
+  .paper-box-image { flex: 0 0 42%; max-width: 42%; order: 1; align-items: center; }
+  .paper-box-text { flex: 1; order: 2; max-width: none; }
 }
-
-/* wide project card: dense figure spans full width on top so it stays legible */
-.paper-box--wide { flex-direction: column; align-items: stretch; gap: 0.9rem; }
-.paper-box--wide .paper-box-image { order: 0; width: 100%; max-width: none; flex: none; align-items: stretch; }
-.paper-box--wide .paper-box-image img { width: 100%; max-width: none; height: auto; object-fit: contain; background: #fff; }
-.paper-box--wide .paper-box-text { order: 1; flex: none; max-width: none; }
 
 .badge {
   position: absolute;

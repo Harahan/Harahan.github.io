@@ -311,7 +311,7 @@ I am always happy to chat about research and potential collaborations — feel f
 <span class='anchor' id='-projects'></span>
 # Projects
 
-<div class='paper-box paper-box--wide'><div class='paper-box-image'><div><div class="badge">Toolkit</div><img src='images/llmc_tool.webp?v={{ site.time | date: "%s" }}' loading="lazy" decoding="async" alt="LightCompress" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Toolkit</div><img src='images/llmc_tool.webp?v={{ site.time | date: "%s" }}' loading="lazy" decoding="async" alt="LightCompress" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [LightCompress](https://github.com/ModelTC/LightCompress) is an off-the-shelf compression suite for AIGC models (LLMs, VLMs, diffusion, etc.) that packages SOTA quantization, sparsification, and deployment best practices to shrink models while preserving accuracy. **700+ GitHub Stars.**
