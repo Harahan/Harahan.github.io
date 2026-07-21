@@ -45,36 +45,6 @@ I am always happy to chat about research and potential collaborations — feel f
 
 <div id="pub-selected" class="pub-view">
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Highlight</div><img src='images/linvideo.webp?v={{ site.time | date: "%s" }}' loading="lazy" decoding="async" alt="LinVideo" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[LinVideo: A Post-Training Framework towards $\mathcal{O}(n)$ Attention in Efficient Video Generation](https://arxiv.org/abs/2510.08318)
-
-**Yushi Huang**, Xingtong Ge, Ruihao Gong📧, Chengtao Lv, Jun Zhang📧
-
-<div style="display: inline">
-    <a class="resource-link" href="https://arxiv.org/abs/2510.08318">Paper</a>
-</div>
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/qvgen.webp?v={{ site.time | date: "%s" }}' loading="lazy" decoding="async" alt="QVGen" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[QVGen: Pushing the Limit of Quantized Video Generative Models](https://arxiv.org/abs/2505.11497)
-
-**Yushi Huang**, Ruihao Gong📧, Jing Liu, Yifu Ding, Chengtao Lv, Haotong Qin, Jun Zhang📧
-
-<div style="display: inline">
-    <a class="resource-link" href="https://arxiv.org/abs/2505.11497">Paper</a>
-    <a class="resource-link" href="https://github.com/ModelTC/QVGen">Code</a>
-    <a class="resource-link" href="https://huggingface.co/collections/Harahan/qvgen">Models</a>
-</div>
-
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='images/meanflownft.webp?v={{ site.time | date: "%s" }}' loading="lazy" decoding="async" alt="MeanFlowNFT" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -102,6 +72,36 @@ I am always happy to chat about research and potential collaborations — feel f
 <div style="display: inline">
     <a class="resource-link" href="https://arxiv.org/abs/2511.15690">Paper</a>
     <a class="resource-link" href="https://github.com/ModelTC/MoDES">Code</a>
+</div>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Highlight</div><img src='images/linvideo.webp?v={{ site.time | date: "%s" }}' loading="lazy" decoding="async" alt="LinVideo" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[LinVideo: A Post-Training Framework towards $\mathcal{O}(n)$ Attention in Efficient Video Generation](https://arxiv.org/abs/2510.08318)
+
+**Yushi Huang**, Xingtong Ge, Ruihao Gong📧, Chengtao Lv, Jun Zhang📧
+
+<div style="display: inline">
+    <a class="resource-link" href="https://arxiv.org/abs/2510.08318">Paper</a>
+</div>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/qvgen.webp?v={{ site.time | date: "%s" }}' loading="lazy" decoding="async" alt="QVGen" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[QVGen: Pushing the Limit of Quantized Video Generative Models](https://arxiv.org/abs/2505.11497)
+
+**Yushi Huang**, Ruihao Gong📧, Jing Liu, Yifu Ding, Chengtao Lv, Haotong Qin, Jun Zhang📧
+
+<div style="display: inline">
+    <a class="resource-link" href="https://arxiv.org/abs/2505.11497">Paper</a>
+    <a class="resource-link" href="https://github.com/ModelTC/QVGen">Code</a>
+    <a class="resource-link" href="https://huggingface.co/collections/Harahan/qvgen">Models</a>
 </div>
 
 </div>
