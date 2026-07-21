@@ -402,8 +402,6 @@ button:focus-visible,
   object-position: center;
   background: #fff;
 }
-/* QVGen is a wide chart — show it fully (no clipped axes); fills the short box */
-#pub-selected .paper-box-image img[alt="QVGen"] { object-fit: contain; }
 /* MoDES figure is tall — anchor the crop to the top example, not the middle */
 #pub-selected .paper-box-image img[alt="MoDES"] { object-position: top; }
 #pub-selected .paper-box-text { order: 1; font-size: 0.86rem; }
