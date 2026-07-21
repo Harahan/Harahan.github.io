@@ -11,7 +11,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUST), supervised by Prof. [Jun Zhang](https://eejzhang.people.ust.hk/home.html). I received my B.E. degree from Beihang University. My research interest is building **efficient and high-performing generative AI**. I currently work on RL for efficient image/video generation. Previously, I worked on improving inference efficiency for vision and language generative models, including low-precision inference, computation skipping, efficient attention, etc.
+I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUST), supervised by Prof. [Jun Zhang](https://eejzhang.people.ust.hk/home.html). I received my B.E. degree from Beihang University. My research interest is building **efficient and high-performing large-scale AI models**. I currently work on RL for efficient image/video generation. Previously, I worked on improving inference efficiency for vision and language generative models, including low-precision inference, computation skipping, efficient attention, etc.
 
 I am always happy to chat about research and potential collaborations — feel free to [reach out](mailto:yh4717023@gmail.com).
 
