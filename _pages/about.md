@@ -323,6 +323,18 @@ I am always happy to chat about research and potential collaborations — feel f
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Toolkit</div><img src='images/lightx2v.webp?v={{ site.time | date: "%s" }}' loading="lazy" decoding="async" alt="LightX2V" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[LightX2V](https://github.com/ModelTC/LightX2V) is a lightweight image/video generation inference framework for efficient, high-performance synthesis across text-to-video, image-to-video, text-to-image, and image editing. **2.5k+ GitHub Stars.**
+
+<div style="display: inline">
+    <a class="resource-link" href="https://github.com/ModelTC/LightX2V">GitHub</a>
+</div>
+
+</div>
+</div>
+
 
 <span class='anchor' id='-services'></span>
 # Honors & Services
@@ -378,7 +390,7 @@ I am always happy to chat about research and potential collaborations — feel f
   <div class="cv-date">2025.09 – 2025.11</div>
 </div>
 
-<!--
+
 <div class="cv-item">
   <img class="cv-logo" src="images/logos/microsoft.png" alt="Microsoft Research Asia">
   <div class="cv-info">
@@ -388,7 +400,7 @@ I am always happy to chat about research and potential collaborations — feel f
   </div>
   <div class="cv-date">2024.12 – 2025.02</div>
 </div>
--->
+
 
 <div class="cv-item">
   <img class="cv-logo" src="images/logos/sensetime.png" alt="SenseTime Research">
@@ -397,7 +409,7 @@ I am always happy to chat about research and potential collaborations — feel f
     <div class="cv-role">Research Intern</div>
     <div class="cv-note">Compression and acceleration for image/video diffusion models and LLMs</div>
   </div>
-  <div class="cv-date">2023.05 – 2025.03</div>
+  <div class="cv-date">2023.05 – 2026.02<br>Multiple terms</div>
 </div>
 
 </div>
