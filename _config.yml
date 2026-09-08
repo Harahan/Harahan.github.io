@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yushi Huang"
   name_cn          : "黄雨石"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "images/avatar-x.webp"
   bio              : "Ph.D. Student at HKUST"
   location         : "Hong Kong SAR"
   cv               : "images/Resume.pdf"
