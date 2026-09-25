@@ -472,7 +472,7 @@ button:focus-visible,
   line-height: 1.34;
   color: var(--ink);
 }
-.pub-title:hover { color: var(--accent); }
+a.pub-title:hover { color: var(--accent); }
 .pub-auth { font-size: 0.85rem; color: var(--muted); margin-top: 0.2rem; }
 .pub-auth strong { color: var(--ink); font-weight: 700; }
 .pub-tag {

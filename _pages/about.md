@@ -19,6 +19,7 @@ I am always happy to chat about research and potential collaborations — feel f
 # News
 
 <div class="news-box" markdown="1">
+- *2026.09*: &nbsp;🎉🎉 Our ProQuant is accepted to NeurIPS.
 - *2026.06*: &nbsp;🎉🎉 Our SALT is accepted to ECCV.
 - *2026.05*: &nbsp;🎉🎉 Our Light Forcing, SGMD, and Flash-VAED are accepted to ICML.
 - *2026.04*: &nbsp;🎉🎉 Our LinVideo is selected as a Highlight Poster.
@@ -111,6 +112,14 @@ I am always happy to chat about research and potential collaborations — feel f
 
 <div id="pub-all" class="pub-view" hidden>
 <div class="pub-list">
+
+<div class="pub-item">
+  <div class="pub-venue"><span class="pub-venue-name">NeurIPS</span><span class="pub-venue-year">2026</span></div>
+  <div class="pub-main">
+    <span class="pub-title">ProQuant: Progressive Quantization-aware Training for Edge MLLMs</span>
+    <div class="pub-auth">Yufei Xue, <strong>Yushi Huang</strong>, Jiawei Shao, Pingcheng Dong, Yonghao Tan, Shiyao Li, Kwang-Ting Cheng, Jun Zhang📧</div>
+  </div>
+</div>
 
 <div class="pub-item">
   <div class="pub-venue"><span class="pub-venue-name">arXiv</span><span class="pub-venue-year">2026</span></div>
