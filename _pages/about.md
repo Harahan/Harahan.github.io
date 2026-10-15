@@ -11,7 +11,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUST), supervised by Prof. [Jun Zhang](https://eejzhang.people.ust.hk/home.html). I received my B.E. degree from Beihang University. My research interest is building **efficient and high-performing large-scale AI models**. I currently work on RL for efficient image/video generation. Previously, I worked on improving inference efficiency for vision and language generative models, including low-precision inference, computation skipping, efficient attention, etc.
+I am a Ph.D. student at the Hong Kong University of Science and Technology (HKUST), supervised by Prof. [Jun Zhang](https://eejzhang.people.ust.hk/home.html). I received my B.E. degree from Beihang University. My research interests focus on **model efficiency and reinforcement learning (RL)**. I currently work on agentic RL for (M)LLMs. Previously, I worked on RL for image/video generation and inference acceleration for large foundation models (e.g., quantization, computation skipping, and efficient attention).
 
 I am always happy to chat about research and potential collaborations — feel free to [reach out](mailto:yh4717023@gmail.com).
 
@@ -114,10 +114,28 @@ I am always happy to chat about research and potential collaborations — feel f
 <div class="pub-list">
 
 <div class="pub-item">
+  <div class="pub-venue"><span class="pub-venue-name">arXiv</span><span class="pub-venue-year">2026</span></div>
+  <div class="pub-main">
+    <a class="pub-title" href="https://arxiv.org/abs/2610.16776" target="_blank" rel="noopener">Game-Creation-Agents: Autonomous Game Production</a>
+    <div class="pub-auth">Xiangxin Zhou, Jiaqi Tang, Ke Ma, Wenhao Yang, Jiarui Yao, Boye Niu, Haiyang Guo, Yifei Zhao, Huanjin Yao, Pu Jian, Ruihuang Li, Haitao Wu, <strong>Yushi Huang</strong>, Xiangyan Liu, Yan Sun, Kaixin Li, Tianyu Pang</div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2610.16776" target="_blank" rel="noopener">Paper</a><a href="https://github.com/Tencent/Game-Creation-Agents" target="_blank" rel="noopener">Code</a></div>
+  </div>
+</div>
+
+<div class="pub-item">
   <div class="pub-venue"><span class="pub-venue-name">NeurIPS</span><span class="pub-venue-year">2026</span></div>
   <div class="pub-main">
     <span class="pub-title">ProQuant: Progressive Quantization-aware Training for Edge MLLMs</span>
     <div class="pub-auth">Yufei Xue, <strong>Yushi Huang</strong>, Jiawei Shao, Pingcheng Dong, Yonghao Tan, Shiyao Li, Kwang-Ting Cheng, Jun Zhang📧</div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-venue"><span class="pub-venue-name">arXiv</span><span class="pub-venue-year">2026</span></div>
+  <div class="pub-main">
+    <a class="pub-title" href="https://arxiv.org/abs/2609.36995" target="_blank" rel="noopener">Salt++: Context-Aligned Post-Training for Few-Step Streaming Multimodal Generation</a>
+    <div class="pub-auth">Xingtong Ge, Yutong Wang, Lunjie Zhu, Haitao Lin, Fangyu Lin, <strong>Yushi Huang</strong>, Xin Zhang, Yi Zhang, Yu Liu, Jun Zhang📧</div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2609.36995" target="_blank" rel="noopener">Paper</a><a href="https://github.com/XingtongGe/Saltpp" target="_blank" rel="noopener">Code</a><a href="https://xingtongge.github.io/Saltpp" target="_blank" rel="noopener">Project</a></div>
   </div>
 </div>
 
@@ -261,8 +279,8 @@ I am always happy to chat about research and potential collaborations — feel f
 <div class="pub-item">
   <div class="pub-venue"><span class="pub-venue-name">arXiv</span><span class="pub-venue-year">2025</span></div>
   <div class="pub-main">
-    <a class="pub-title" href="https://arxiv.org/abs/2508.03351" target="_blank" rel="noopener">Towards Efficient Post-Training Quantization for Large Vision-Language Models via Token-Wise Redundancy Elimination</a>
-    <div class="pub-auth">Yufei Xue, <strong>Yushi Huang</strong>, Jiawei Shao, Jun Zhang📧</div>
+    <a class="pub-title" href="https://arxiv.org/abs/2508.03351" target="_blank" rel="noopener">SalQ-VLM: Fine-Grained Saliency-Guided Quantization for Vision-Language Models</a>
+    <div class="pub-auth">Yufei Xue, <strong>Yushi Huang</strong>, Lunjie Zhu, Jiawei Shao, Jun Zhang📧</div>
     <div class="pub-links"><a href="https://arxiv.org/abs/2508.03351" target="_blank" rel="noopener">Paper</a></div>
   </div>
 </div>
@@ -384,7 +402,8 @@ I am always happy to chat about research and potential collaborations — feel f
   <div class="cv-info">
     <div class="cv-org">Tencent · Hunyuan</div>
     <div class="cv-role">Research Intern</div>
-    <div class="cv-note">RL for image/video generative models</div>
+    <div class="cv-note">• Agentic RL for (M)LLMs (2026.10 – Now)</div>
+    <div class="cv-note">• RL for image/video generative models (2026.02 – 2026.10)</div>
   </div>
   <div class="cv-date">2026.02 – Now</div>
 </div>
