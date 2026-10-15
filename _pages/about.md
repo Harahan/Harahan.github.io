@@ -413,7 +413,7 @@ I am always happy to chat about research and potential collaborations — feel f
   <div class="cv-info">
     <div class="cv-org">ByteDance · Seed</div>
     <div class="cv-role">Research Intern</div>
-    <div class="cv-note">Inference acceleration for multimodal LLMs</div>
+    <div class="cv-note">Inference acceleration for (M)LLMs</div>
   </div>
   <div class="cv-date">2025.09 – 2025.11</div>
 </div>
