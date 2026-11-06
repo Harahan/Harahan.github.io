@@ -354,7 +354,7 @@ I am always happy to chat about research and potential collaborations — feel f
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Toolkit</div><img src='images/lightx2v.webp?v={{ site.time | date: "%s" }}' loading="lazy" decoding="async" alt="LightX2V" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[LightX2V](https://github.com/ModelTC/LightX2V) is a lightweight image/video generation inference framework for efficient, high-performance synthesis across text-to-video, image-to-video, text-to-image, and image editing. **3k+ GitHub Stars.**
+[LightX2V](https://github.com/ModelTC/LightX2V) is a lightweight image/video generation inference framework for efficient, high-performance synthesis across text-to-video, image-to-video, text-to-image, and image editing. **2.5k+ GitHub Stars.**
 
 <div style="display: inline">
     <a class="resource-link" href="https://github.com/ModelTC/LightX2V">GitHub</a>
