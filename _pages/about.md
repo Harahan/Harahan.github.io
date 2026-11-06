@@ -114,19 +114,20 @@ I am always happy to chat about research and potential collaborations — feel f
 <div class="pub-list">
 
 <div class="pub-item">
+  <div class="pub-venue"><span class="pub-venue-name">NeurIPS</span><span class="pub-venue-year">2026</span></div>
+  <div class="pub-main">
+    <a class="pub-title" href="https://arxiv.org/abs/2611.08216" target="_blank" rel="noopener">ProQuant: Progressive Quantization-aware Training for Edge MLLMs</a>
+    <div class="pub-auth">Yufei Xue, <strong>Yushi Huang</strong>, Jiawei Shao📧, Pingcheng Dong, Yonghao Tan, Shiyao Li, Kwang-Ting Cheng, Jun Zhang📧</div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2611.08216" target="_blank" rel="noopener">Paper</a><a href="https://github.com/yufeixue-ai/ProQuant" target="_blank" rel="noopener">Code</a></div>
+  </div>
+</div>
+
+<div class="pub-item">
   <div class="pub-venue"><span class="pub-venue-name">arXiv</span><span class="pub-venue-year">2026</span></div>
   <div class="pub-main">
     <a class="pub-title" href="https://arxiv.org/abs/2610.16776" target="_blank" rel="noopener">Game-Creation-Agents: Autonomous Game Production</a>
     <div class="pub-auth">Xiangxin Zhou, Jiaqi Tang, Ke Ma, Wenhao Yang, Jiarui Yao, Boye Niu, Haiyang Guo, Yifei Zhao, Huanjin Yao, Pu Jian, Ruihuang Li, Haitao Wu, <strong>Yushi Huang</strong>, Xiangyan Liu, Yan Sun, Kaixin Li, Tianyu Pang</div>
     <div class="pub-links"><a href="https://arxiv.org/abs/2610.16776" target="_blank" rel="noopener">Paper</a><a href="https://github.com/Tencent/Game-Creation-Agents" target="_blank" rel="noopener">Code</a></div>
-  </div>
-</div>
-
-<div class="pub-item">
-  <div class="pub-venue"><span class="pub-venue-name">NeurIPS</span><span class="pub-venue-year">2026</span></div>
-  <div class="pub-main">
-    <span class="pub-title">ProQuant: Progressive Quantization-aware Training for Edge MLLMs</span>
-    <div class="pub-auth">Yufei Xue, <strong>Yushi Huang</strong>, Jiawei Shao, Pingcheng Dong, Yonghao Tan, Shiyao Li, Kwang-Ting Cheng, Jun Zhang📧</div>
   </div>
 </div>
 
